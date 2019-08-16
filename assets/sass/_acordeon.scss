@@ -1,0 +1,115 @@
+/*=======================
+ACORDEON
+================*/
+
+.container-acordeon{
+	@extend %config-base;	
+	margin: 2% 0;    
+}
+.acordeon{		
+	@extend %config-base;	
+	border-top: 2px solid #ebebeb;
+
+	.title-acordeon{   
+		@extend %config-base; 	
+		@extend %f-flex; 
+		@extend %f-between;	
+		width: 98%; 
+		align-items: center;	
+		padding: 1%;	
+
+		h2{	
+			font-size: 20px;	
+			font-style: italic;	
+			font-weight: 300;	
+			color: #4b4f58;
+
+			strong{	
+				font-size: 20px;	
+				font-style: normal;
+			}
+		}
+	}
+
+	.conteudo-acordeon{
+		@extend %config-base;
+		width: 98%;	
+		padding: 1%;	
+		display: none;	
+		transition: $transition;
+
+		.btn-acordeon{
+			a{
+				color: $azul; 
+				text-transform: uppercase;
+				font-weight: 500;
+			}
+			i{
+				color: $azul; 
+				text-transform: uppercase;
+				font-weight: 500;
+			}
+		}
+	}
+.active-acordeon{	/*height: auto;*/	transition: 1s all;	display: block;}
+}
+
+
+	.container-matriz-mobile{
+		@extend %config-base;
+		display: none;
+		}
+.acordeon-matriz-mobile{
+		@extend %config-base;
+		}
+		.title-acordeon-matriz-mobile{
+			@extend %config-base;
+			@extend %f-flex;
+			@extend %f-between;
+		  	width: 98%;
+			align-items: center;	
+			padding: 1%;	
+			border:1px solid #fff;	
+			margin: 1% 0 0;	
+
+					h2{	
+						font-size: 20px;	
+						font-weight: 300;	
+						color: $branco;
+
+						strong{	
+							font-size: 20px;	
+							font-style: normal;
+						}
+					}
+			}
+
+		.conteudo-acordeon-matriz-mobile{
+			@extend %config-base;	
+			width: 98%;	
+			padding: 1%;	
+			display: none;	
+			transition: $transition;
+
+			.box-content-matriz-curricular{	
+				@extend %config-base;	
+				width: 48%;
+			}
+			p{
+				color: $branco;
+			}
+
+			.btn-acordeon{
+				a,a i{
+					color: $azul; 
+					text-transform: 
+					uppercase;
+					font-weight: 500;
+				}
+				}
+		}
+
+ .active-acordeon{
+ 	transition: $transition;
+ 	display: block;
+ }

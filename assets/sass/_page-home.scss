@@ -1,0 +1,149 @@
+/*============================
+QUEM SOMOS
+=====================*/
+
+#quemsomos-home{
+	background-size: cover cover;
+	height: 1280px;    
+	max-height: 1280px;
+	transition: $transition;
+	@extend %config-base;
+
+		.main-quemsomos{
+			padding: 112px 0 101px;
+			@extend %f-flex;
+			@extend %f-columns;
+
+				h2{
+				    font-size: 62px;
+				    font-weight: 600;
+				    line-height: 100px;
+				}	
+
+				p{
+					font-size: 22px;
+				    font-weight: 300;
+				    line-height: 28px;
+				    color: #fff;
+
+				    span{
+				    	@extend %separador;
+				    	width: 50px;
+				    	height: 6px;
+				    }
+				}
+		}
+
+		.btn-ese{
+			width: 147px;
+			margin-top: 38px;
+		}
+}
+
+
+.quemsomos-home-container{
+	opacity: 0;
+	transition: $transition;
+	@extend %f-flex;
+	@extend %f-between;
+
+		h3{
+			margin:22 0 0;
+			font-weight: bolder;
+		}
+		p{
+			margin:22px 0;
+			font-weight: 300;
+			color: #fff;
+		}
+
+	.quemsomos-box{
+		width: 30%;
+	    padding: 0 1%;
+	    margin: 0 1%;
+
+			.qs-title{
+				@extend %config-base;
+				h3{
+
+				}
+			}
+			
+			.qs-content{
+				
+				@extend %config-base;
+			}
+
+			.qs-btn{
+				@extend %config-base;
+
+				.btn-ese{
+					margin: 0 auto;
+					
+					span{
+						font-size: 15px;
+					}
+
+				}
+
+			}
+	}
+
+
+}
+
+
+.ativar{
+	opacity: 1;
+	transition: $transition;
+}
+
+.aumentar-qs{
+	transition: 1s all;
+	width: 100% !important;
+    margin: 0 !important;
+
+}
+
+/*===========================
+CURSOS
+=================*/
+
+#cursos{    
+    margin: -528px 0 0;
+	transition: 1s all;	
+	background-size: 100%;
+		@extend %config-base;
+
+	.cursos-home{
+		@extend %config-base;
+		@extend %f-flex;
+		@extend %f-columns;
+		@extend %f-align-center;
+		height:308px; 
+
+		.container-ese{
+		max-width:500px;
+				h3{
+					font-weight: 100;
+				}
+				p{
+					color: #fff;
+					text-align: center;
+				}
+		
+				.btn-ese-default{
+					padding: 0 30px;
+					background-color: $azul !important;
+					border: none;
+					margin: 20px auto 0;
+					width: 100px;
+				}}
+	}
+}
+ 
+
+.btn-shadow-azul{
+-webkit-box-shadow: 1px 7px 15px -3px rgba(18,123,220,0.73); 
+box-shadow: 1px 7px 15px -3px rgba(18,123,220,0.73);
+}

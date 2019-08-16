@@ -1,0 +1,372 @@
+/*========================
+MBA
+============*/
+
+#ocurso-mba{
+	@extend %config-base;
+	background: $azul2;
+	padding: 69px 0;
+	.container-ese{
+		@extend %f-flex;
+		@extend %f-between;
+		.col{
+			width: 46%;
+   			padding: 2%;
+
+			h2,h3{
+				color: $branco;	
+				line-height: 135px;
+			}
+			h3{
+				font-weight: 100;
+			}
+			p{
+				color: #fff;
+			}
+		}
+	}
+}
+
+#informativo-mba{
+	@extend %config-base;
+	background: #f0f0f0;
+
+	.informativo{
+		@extend %f-flex;
+		@extend %f-align-center;
+		@extend %f-columns;
+		background: $azul2;
+		height: 63px;	
+		width: 158px;	
+		text-transform: uppercase;
+
+		p{
+			color: $branco;
+			font-size: 14px;
+			line-height: 16px;    
+			letter-spacing: 2px;
+		}
+	}
+
+}
+
+#detalhes-mba{
+	@extend %config-base;
+	padding-bottom: 64px;
+
+	.detalhe-curso-mba{	
+		border-top: 1px solid #d8d8d8;	
+		padding: 64px 0;
+
+		h3{
+			color: #373636;
+		}
+		.content-container-ese{
+			@extend %config-base;
+			@extend %f-flex;
+			justify-content: space-around;
+    		margin-top: 64px;
+				.col{
+					text-align: center;
+					i{
+					    color: #c4c4c4;
+					    font-size: 50px;
+					    line-height: 100px;
+					    text-align: center;
+					}
+				}
+
+
+				.btn-increva-se-mba{
+					@extend %f-flex;
+					@extend %f-align-center;	
+					border-radius: 30px;	
+					height: 40px;			
+					color: $branco;	
+					margin: 0 auto;	
+					padding: 0 30px;	
+					cursor: pointer;	
+					width: 110px;   
+					background: $azul;
+
+					 a{	
+					 	color: #fff;
+					 }
+				}
+		}
+	}
+
+}
+
+#vestibular-curso-mba{
+	@extend %config-base;
+	background: #f0f0f0;
+	padding: 91px 0;
+	
+		.container-ese{
+			@extend %f-flex;
+			@extend %f-between;
+
+			.col{
+				@extend %config-base;
+				@extend %f-flex;
+				@extend %f-columns;	
+
+				.form-vestibular-curso-mba{	
+					@extend %config-base;
+
+					h3{	
+						color: #000;
+					}
+
+					input[type=email],
+					input[type=text]{
+							@extend %config-base;
+							width: 30%;	
+							margin: 1% 1.5%;	
+							padding: 1% 1%;    
+							background: transparent;    
+							color: #c8c9c9;    
+							border: 1px solid #c8c9c9;    
+							border-radius: 5px;
+						}
+						textarea{	
+							@extend %config-base;
+							width: 96%;	
+							margin: 1% 1.5%; 	
+							padding: 1% 1%;	
+							border: 1px solid $branco;    
+							border-radius: 5px;    
+							background: transparent;     
+							color: #c8c9c9;    
+							border: 1px solid #c8c9c9;
+						}
+						input[type=submit]{	
+							@extend %config-base;
+							@extend %f-flex;
+							@extend %f-align-center;
+							width: 25%;		;	
+							border-radius: 30px;	
+							border:1px solid #2574bc;	
+							background: transparent;	
+							color: #2574bc;	
+							text-transform: uppercase;	
+							border-radius: 25px;	
+							height: 40px;	
+							padding: 0 30px;	
+							margin: 0 37.5%;	
+							font-weight: bolder;	
+							cursor: pointer;	
+							transition: $transition;
+
+							&:hover{	
+								background: #2574bc;	
+								color: $branco;	
+								transition: $transition;
+							}
+						}
+
+
+					}
+				}
+			}
+		}
+
+#inscricao-mba {
+	    max-height: 3466px;
+	    height: 3466px;
+	    width: 100%;
+	    background-size: cover;
+	    float: left;
+	.container-full-ese{
+		@config-base;
+		 .container-ese{
+		 	padding: 144px 0;
+
+		 	h2{	
+		 		font-size: 40px !important;
+
+		 		span{	
+		 			font-size: 30px !important;
+		 		}	
+		 	}
+
+		 	.col-vestibular-center{
+		 		.box-form{
+		 			@extend %config-base;
+		 			@extend %f-flex;
+		 			@extend %f-columns;
+		 			width: 70%;
+		 			background: url('../images/bg/bg-form-vestibular.png');
+		 			padding: 60px 40px;	
+		 			margin: 90px 15%;
+
+		 			h3{	
+		 				color: #2988df !important;	
+		 				font-size: 20px;	
+		 				text-transform: uppercase;
+		 			}
+
+		 			label{	
+		 				@extend %config-base;
+		 				color: $branco;
+		 				margin: 12px 0;	
+		 				text-align: left;
+		 			}
+
+		 			.info-pessoal{
+		 				input[type=email],
+		 				input[type=tel],
+		 				input[type=text]{
+		 						@extend %config-base;
+		 						padding: 12px 1%;	
+		 						border-top: none;	
+		 						border-right: none;	
+		 						border-left: none;	
+		 						border-bottom: 1px solid #9fa4ab;	
+		 						background: transparent;	
+		 						color: $branco;
+
+		 						:focus{
+		 							border-bottom: 1px solid #1b4a77;
+		 						}
+
+
+
+		 				}
+
+		 				select{
+		 					@extend %config-base;
+		 					border-radius: 5px;	
+		 					width: 98%;
+		 					padding: 12px 1%;	
+		 					border: 1px solid $branco;	
+		 					background: transparent;	
+		 					color: $branco;
+
+		 					option{
+		 						color: $preto;
+		 					}
+
+		 				}
+		 			}
+
+		 			.info-geral-form{
+		 					@extend %config-base;
+		 					margin:2% 0;
+		 					select,
+		 					input[type=text]{
+		 					@extend %config-base;
+		 							border-radius: 5px;	
+		 							width: 98%;	
+		 							padding: 12px 1%;	
+		 							border: 1px solid $branco;
+		 							background: transparent;	
+		 							color: $branco; 
+
+		 						}
+		 					select{
+
+			 					option{
+			 						color: $preto;
+			 					}
+		 					}
+
+		 					textarea,#objetivo-profissional1{
+		 						@extend %config-base;	
+		 						width: 98%;
+		 						border-radius: 5px;	
+		 						background: transparent;	
+		 						padding: 12px 1%;	
+		 						border: 1px solid $branco;	
+		 						color: $branco;
+		 					}
+
+		 					input[type=file]{
+		 						display: none;
+
+									&:focus{
+										border: $azul;
+									}
+		 					}	
+
+		 					.file-input{
+		 					@extend %config-base;
+		 					@extend %f-align-center;
+		 					border-radius: 5px;	
+		 					background: transparent;
+		 					padding: 12px 1%;
+		 					border: 1px solid #fff;
+		 					}
+
+		 					
+							input[type=url]{
+		 						@extend %config-base;
+		 						padding: 12px 1%;	
+		 						border-top: none;	
+		 						border-right: none;	
+		 						border-left: none;	
+		 						border-bottom: 1px solid #9fa4ab;	
+		 						background: transparent;	
+		 						color: $branco;
+
+									&:focus{
+										border: $azul;
+									}
+		 						}
+							input[type=submit]{    
+								width: 170px;    
+								margin: 25px auto;    
+								padding: 2% 30px;	
+								background: $azul;	
+								color: $branco;
+								text-align: center;
+								border-radius: 25px;
+								border:none;
+
+									&:focus{
+										border: $azul;
+									}
+							}
+
+							p{
+								span{
+									select{
+										option{
+											&:focus{
+												border: $azul;
+											}
+										}
+									}
+								}
+							}
+
+
+
+		 				} 
+
+
+		 		}
+		 	}
+
+		 	.col-vestibular-mba{
+		 		@extend %config-base;
+		 		p{
+		 			color: $branco !important;
+		 		}
+
+		 		ul{
+		 			p{
+		 				color: $branco !important;
+		 			}
+		 		}
+		 	}
+		 }
+	}
+}
+#inscricao-mba > div.container-ese > div:nth-child(2) > ul > p{color: $branco !important;}
+#check-pos1 > span.wpcf7-list-item{	width: 100%;	float: left;	position: relative;}
+#wpcf7-f121-o2 > form > div:nth-child(7) > p:nth-child(6){	text-align: center;}
+#check-pos1 > span.wpcf7-list-item:focus,:focus{	border: #127bdc;}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{	border:none !important;	width: 100% !important;	float: left !important;	position: relative !important;}
+span.wpcf7-not-valid-tip {    color: #f00 !important;    font-size: 1em !important;    font-weight: normal !important;    display: block !important;    width: 100% !important;    float: left !important;    position: relative !important;}

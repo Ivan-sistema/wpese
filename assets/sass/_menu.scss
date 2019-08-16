@@ -1,0 +1,113 @@
+/*====================
+
+MENU
+
+==========*/
+
+.abrir-nav{
+	display: none;
+	transition: $transition;
+}
+#scroll-header > .menu-header,
+.menu-header{
+	@extend %config-base;
+	display: flex;
+	align-items: center;
+
+	ul{
+		@extend %config-base;
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+
+	    	li{
+			    float: left;
+			    position: relative;
+			    display: flex;
+			    flex-direction: column;
+			    padding: 0 0 0 56px; 
+
+			    &:hover a{
+			    	text-decoration: none;
+			    }
+
+			    &:hover ul{	
+			    	transition: $transition;
+				   display: block;
+				}
+			    a{
+			    	color: #fff;
+					font-size: 14px;
+					font-weight: 500;
+				    width: 100%;
+				    padding: 31px 0;
+				    cursor: pointer;
+			    } 
+
+			    ul{
+			    	flex-direction: column;
+				    transition: $transition;
+				    display: none;
+				    margin-top: 84px;
+					position: absolute;
+
+			
+					
+
+					li{
+						text-align: left;
+						padding: 2% 1%;
+						position: relative;
+						width: 100%;
+						float: left;
+
+						&:hover a{
+							color: #3a3a3b;
+						}
+
+						a{
+							color: #797b80;
+							padding: 5px 0;
+						}
+
+					}
+			    }
+
+		}
+
+
+
+
+
+
+
+	}
+		.sub-menu{
+						width: 239px !important;
+						background: #ffffff;
+						padding: 30px;   
+						-webkit-box-shadow: 1px 1px 30px -3px rgba(0,0,0,0.4); 
+						box-shadow: 1px 1px 30px -3px rgba(0,0,0,0.4);
+					}
+
+
+}
+
+
+
+.bordertop-nav{
+	@extend %config-base;
+	margin: 2px 0;
+}
+.bordertop-menu{
+	width: 0 ;
+	background-image: url('../images/border-top-menu.jpg');
+	height: 2px;
+	float: left;
+	position: relative;
+}
+.menu-transition{
+$transition: 100%;
+	transition: $transition;
+}
+

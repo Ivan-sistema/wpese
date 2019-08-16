@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+/*FONTE*/
+$font-regular: font-weight 400;
+$font-medium: font-weight 500;
+$font-bold: font-weight 700;
+$font-extra-bold: font-weight 900;
+
+
+
+/*CORES*/
+$branco: #fff;
+$azul: #127bdc;
+$azul2: #284a71 !important;
+$cinza: #5a5a5a;
+$cinza2: #666565;
+$cinza3: #ececec;
+$preto: #1e1e1e;
+
+*{
+	outline: none;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html{
+	font-family: 'Roboto', sans-serif;
+	font-weight: $font-regular;
+    margin: 0;
+    padding: 0; 
+    background: $branco;
+}
+
+
+
+/*TRASAÇÂO*/
+$transition: 1s all;
+
+/*FLEX*/
+%f-flex{display: flex !important;}
+%f-columns{flex-direction: column;}
+%f-between{justify-content: space-between;}
+%f-center{justify-content: center;}
+
+%f-align-center{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+%config-base{
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+%focus{
+	border:1px solid #2574bc;
+}
+
+h1{
+	font-size: 72px; 
+	font-weight: $font-extra-bold;
+}
+
+h2{
+	font-weight: $font-bold; 
+	font-size:52px; 
+	line-height: 36px;
+}
+
+h3{
+	font-size: 26px; 
+	line-height: 32px;
+}
+p {
+	font-size: 16px; 
+	line-height: 23px; 
+	color: $cinza; 
+	margin: 10px 0;
+}
+small {
+	font-size: 14px; 
+	line-height: 23px; 
+	color: $cinza;
+	}
+
+
+a{
+text-decoration: none !important;
+
+	:hover{ text-decoration: none !important;}
+}
+
+
+
+
+%separador {
+	@extend %config-base;
+	height: 9px;
+}
+
+%button-carousel{
+	border: none;
+	padding: 0!important;
+	width: 35px;
+	height: 34px;
+	margin: 0 5px;
+	font-size: 0;
+}
+
+
+
+%form-contato {
+	border: 1px solid #e2e2e2;
+	margin:7px 0;
+	border-radius: 5px;
+	padding: 14px 10px;
+}
+
+
+
+.fixo{
+	top: 0!important;
+	height: 85px!important;
+	transition: $transition;
+	overflow: visible !important;
+}
+
+.separador-p{
+	@extend %separador;
+	background: url(../images/bg/separador.png) no-repeat;
+}
+
+
+.separador-azul{
+	@extend %separador;
+	background: url(../images/bg/separador-azul.png) no-repeat;
+}
+
+
+
+.separador-p-small{
+	@extend %separador;
+	background: url(../images/bg/separador.png) no-repeat;
+}
+
+.separador-ul{
+	@extend %separador;
+	background: url(../images/bg/separador-ul.png) no-repeat;
+	height: 1px;
+}
+
+
+/*======================
+		BOTÃO
+==========================*/
+%btn{
+	height: 40px;
+	border-radius: 30px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: transparent;
+	border: 2px solid $branco;
+	color: #fff;
+    width: fit-content;
+}
+.btn-ese{
+	@extend %btn;
+	margin-top: 20px;
+}
+
+
+
+.btn-ese-default{
+	@extend %btn;
+	margin: 20px auto;
+	}
+
+.btn-ese a,
+.btn-ese-default a{
+	color: $branco;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+	font-size: 14px;
+}
+
+.btn-ese:hover a,
+.btn-ese-default:hover a{
+	color: $branco;
+	text-decoration: none;
+}
+
+

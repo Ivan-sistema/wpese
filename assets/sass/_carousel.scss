@@ -1,0 +1,614 @@
+
+/*===========CAROUSEL POST==========*/
+
+#carousel-post{
+	@extend %config-base;  
+	background: #f8f9fa;
+	padding: 5% 0;
+	transition: $transition;
+
+
+		.title-carousel{
+			@extend %config-base;
+			margin-bottom: 20px;
+
+				h2{
+					font-weight: 600;
+					color: $preto;
+					font-size: 52px;
+					line-height: 6px;
+					margin-bottom: 36px;
+				}
+
+				h3{
+					font-weight: 300;
+					color: #7f7f7f;
+					margin-top: 25px;
+				}
+			}
+
+.owl-carousel{
+		.box-carousel-post{    
+			width: 240px;
+		    height: 455px;
+		    float: left;
+		    position: relative;
+		    @extend %f-flex;
+		    @extend %f-columns;
+		    margin: 5px 7px 0;
+		    background: $branco;
+
+		    &:hover{
+		    	transition: 1s all;
+				margin-top:-2px !important;
+		    }
+
+
+			.post_thumb{
+				width: 100%;
+				height: 215px;
+
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+
+			.title-carousel-post{
+				@extend %config-base;  
+		    	@extend %f-flex; 
+			    width: 84%;
+			    padding: 10px 8% 0;
+
+			    h2{
+			    	color: $cinza2; 
+			    	line-height: 20px;
+
+			    	a{
+			    		color: $cinza2; 
+			    		font-weight: bolder; 
+			    		font-size: 18px !important;
+
+			    		&:hover{
+			    			text-decoration: none;
+			    		}
+			    	}
+			    }
+			}
+
+			.conteudo-post{ 
+				@extend %config-base;  
+		    	@extend %f-flex;   
+		    	@extend %f-columns;   
+				width: 84%;
+				padding: 5% 8% 0;
+
+				p{
+					color: #aeaeae; 
+					font-weight: 300;
+					margin: 5px 0 0;
+				}
+				
+				.btn-leia-mais{ 
+					background: #2988df; 
+					width: 80px; 
+					text-align: center;
+					padding: 5px 0;
+					margin-top: 15px;
+
+					    a{
+							color:#fff;
+						}
+				}
+			}
+			
+			
+			
+
+		}
+
+		.owl-nav {
+		    width: 1100px;
+		   @extend %f-flex;
+		   @extend %f-between;
+		    padding: 20px 0 0 0;
+		    order: 2;
+		    position: absolute;
+		    z-index: 999999;
+		    margin-top: 203px;
+		    margin-left: -59px;
+
+		 
+			    
+
+			    button.owl-prev{
+			    @extend %button-carousel;
+				    background: url('../images/bg/btn-prev.png');
+				}
+				button.owl-next{
+			    @extend %button-carousel;
+				    background: url('../images/bg/btn-next.png');
+				}
+
+			  
+		    }
+		
+			.owl-dots{
+				width: 100%;
+				@extend %f-flex;
+				justify-content: center;
+				order: 1;
+				margin-top:64px;
+
+				button.owl-dot{
+					border:1px solid #7f7f7f;
+					width: 10px;
+					height: 10px;
+					margin: 0 2px;
+					border-radius: 25px;
+							
+					.active{
+						background: #7f7f7f;
+						width: 10px;
+						height: 10px;
+						border-radius: 25px;
+					}
+				}
+			}
+
+
+
+
+		}
+
+
+
+}
+.page-id-127 #carousel-post{
+	@extend %config-base;     
+	background: #ececec;
+	padding: 5% 0;
+	transition: $transition;
+}
+
+
+/*==================
+CAROUSEL ACONTECE
+=================*/
+.carousel-post-acontece{
+
+	@extend %config-base;  
+	@extend %f-flex;
+	@extend %f-columns;
+	width: 240px;
+    height: 412px;
+    margin: 10px 7px 0;
+    background: $branco;
+
+    .post_thumb{
+		width: 100%;
+		height: 215px;
+		-webkit-box-shadow: -1px 7px 10px 1px rgba(0,0,0,0.07); 
+		box-shadow: -1px 7px 10px 1px rgba(0,0,0,0.07);
+
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.date-post{
+		@extend %f-flex;
+		@extend %f-align-center;
+	    width: 51px;
+	    height: 51px;
+	    background: #313131;
+	    color: $branco;
+	    margin-top: -32px;
+	    margin-left: 22px;
+	    position: relative;
+		-webkit-box-shadow: 0px 2px 8px 4px rgba(0,0,0,0.16); 
+		box-shadow: 0px 2px 8px 4px rgba(0,0,0,0.16);
+
+	}
+
+	.title-carousel-post{
+				@extend %config-base;  
+		    	@extend %f-flex; 
+			    width: 84%;
+			     padding: 5% 8% 0;
+
+
+
+			    .col{
+			    	@extend %f-flex; 
+					align-items: center;
+
+
+			    h2{
+			    	color: $cinza2; 
+			    	line-height: 20px;
+
+			    	a{
+			    		color: $cinza2; 
+			    		font-weight: bolder; 
+			    		font-size: 16px !important;
+
+			    		&:hover{
+			    			text-decoration: none;
+			    		}
+			    	}
+			    }
+
+					i{
+						color: #0077f2;    
+						font-size: 20px;
+						margin-right: 5px;
+					}
+			    }
+			}
+
+			.conteudo-post{
+				width: 90%;
+    			padding: 1% 5%;
+				p{
+					color: #8c8c8c;
+					font-size: 14px;
+				}
+			}
+
+
+
+}
+
+
+
+		.owl-carousel-acontece,
+		.owl-carousel-ecossistema{
+			.owl-nav{
+				width: 100%;
+				@extend %f-flex;
+				@extend %f-between;
+				justify-content: space-between;
+				margin:38px 0 0;
+
+				button.owl-prev {
+					span{
+						@extend %config-base;
+						background: url('../images/bg/btn-prev-events.png') no-repeat;
+						width: 190px;
+						height: 28px;
+						font-size: 0 !important;
+					    color: transparent;
+					}
+				}
+
+				button.owl-next {
+					span{
+						background: url('../images/bg/btn-next-events.png') no-repeat;
+						width: 190px;
+						height: 28px;
+					    float: right;
+					    position: relative;
+					    font-size: 0 !important;
+					    color: transparent;
+					}
+				}
+			}
+		}
+
+
+/*==========================
+ECOSSISTEMA
+============*/
+.carousel-post-ecossistema{
+	@extend %f-flex;
+	@extend %f-align-center;
+	width: 300px;
+	padding: 1%;
+
+	.conteudo-post{
+		@extend %config-base;
+		@extend %f-flex;
+		@extend %f-align-center;
+	    height: 120px;
+	    flex-direction: row;
+
+	    .conteudo-data-post{
+			@extend %config-base;
+			@extend %f-flex;
+			@extend %f-columns;
+			width: 68px;
+			height: 68px;
+			justify-content: center;
+			border-top: 8px solid #0078f2;
+			text-align: center;
+			margin-right: 16px;
+
+			span{
+				color: #0078f2;
+				font-size: 20px;
+				font-weight: 800;
+			}
+		}
+		p{
+			margin-top: 5px;
+		    font-size: 14px;
+		    font-weight: 300;
+		    line-height: 16px;
+		    color: #252525;
+		}
+		 h2 a{
+		    font-size: 22px;
+		    color: #252525;
+ 		    line-height: 20px;
+		    font-weight: 600;
+
+		}
+		&:hover h2 a{
+		    color: #9a9a9a !important;
+		}
+	}
+}
+
+
+.owl-carousel-estrutura{
+	.carousel-post-estrutura{
+		@extend %config-base;
+		background: $branco;
+
+		.post_thumb{	
+			width: 100%;	
+			height:auto;
+			img{
+				width: 100%;
+				height: auto;
+			}
+		}
+
+	}
+
+}
+
+
+.owl-carousel-gestao-executiva{
+	.carousel-box-left{	
+		@extend %config-base;
+		@extend %f-flex;
+		width: 20%;
+		justify-content: center;
+
+		.post_thumb{	
+			border-radius: 50%;	
+			border:4px solid $cinza3;	
+			height: 150px;	
+			width: 150px !important;	
+			padding: 2%;
+		}
+	}
+
+	.carousel-box-right{   
+		@extend %config-base; 
+		width: 70%;
+
+		.carousel-box-title{
+			@extend %config-base; 
+
+			 h3{	
+			 	color: $azul;	
+			 	font-weight: 600;
+			 }
+			  p{
+			  	color: #9698a1;
+			  }
+		}
+
+		.carousel-box-content{
+			@extend %config-base;	
+			margin: 2% 0;
+
+			p{	
+				color: $cinza2;	
+				font-weight: 300;	
+				margin: 5px 0;
+			}
+		}
+		.carousel-box-btn{
+			@extend %config-base;
+			@extend %f-flex;
+			@extend %f-align-center;
+			height: 40px; 
+			width: 40%;    
+			border-radius: 20px;    
+			border: 2px solid $azul; 
+
+				a{
+					padding: 0 30px;
+					color: $azul;
+					text-transform: uppercase;
+				} 
+		}
+	}
+
+
+
+}
+
+.owl-carousel-graduacao{
+	.curriculo-slider{	
+		@extend %config-base;
+		width: 80%;	
+		margin: 0 10%;
+		height: 650px;
+		
+		.item{
+			display: flex;
+		    justify-content: space-between;
+		}
+		.curriculo-slider-left{
+			@extend %f-flex;
+			@extend %f-align-center;
+			width:200px;
+			height: 100%;
+
+			.post_thumb{    
+				border-radius: 50%;    
+				width: 150px;    
+				height: 150px;   
+				padding: 5px;    
+				border: 4px solid #ccc;
+			}
+		}
+
+
+		.curriculo-slider-right{
+			@extend %config-base;
+			@extend %f-flex;
+			@extend %f-columns;
+			width:75%;
+			justify-content: center;
+			float: right;
+
+				.title-curriculo-slider{    
+					padding-left: 160px;    
+					width: 520px;
+
+					h3{	
+						color: #2988df;
+					}
+				}
+
+				.conteudo-curriculo-slider{ 
+					@extend %config-base;
+					@extend %f-flex;	
+					@extend %f-center;	
+					width: 680px;	
+					margin: 2% 0;
+
+					.icone{	
+						@extend %config-base;
+						@extend %f-flex;	
+						width: 80px;   	
+						margin-right: 30px;
+						align-items: center;
+
+						 i{	
+						 	color: $azul;
+						 	font-size: 60px;
+						 }
+					}
+
+					.content-curriculo{	
+						color: #000;   	
+						width: 470px;
+
+						p,
+						p span,
+						ul li,
+						ul li span{
+							color: #787878;	
+							font-size: 15px;
+						}
+					}
+				}
+			} 
+
+	
+	}
+
+		.owl-nav.disabled{
+			display: block;
+		}
+		.owl-nav{
+			@extend %f-flex;
+			@extend %f-between;
+			width: 100%;
+			margin-top: 25%;	    
+			z-index: 99999;
+			position: absolute;
+
+			button.owl-prev{ 
+				@extend %button-carousel;
+				background: url('../images/bg/btn-prev.png') !important;
+				font-size: 0 !important;
+			}
+			button.owl-next{
+				@extend %button-carousel;
+				background: url('../images/bg/btn-next.png') !important;
+				font-size: 0 !important;
+
+			}
+		}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.info-post{width: 100%; float: left;position: relative;padding: 5px 0;}
+.info-post p{font-size: 17px !important;}
+
+
+#conheca-a-ese{
+		.owl-carousel-estrutura{
+				.owl-dots{
+					@extend %config-base;
+					@extend %f-flex;
+					justify-content: center;
+					order: 1;
+					margin-top:64px;
+					button.owl-dot{
+						border:1px solid #7f7f7f;
+						width: 10px;
+						height: 10px;
+						margin: 0 2px;
+						border-radius: 25px;
+					}
+
+					button.owl-dot.active{
+							background: #7f7f7f;
+							width: 10px;
+							height: 10px;
+							border-radius: 25px;
+						}
+				}
+
+				.owl-nav{
+					@extend %config-base;
+					@extend %f-flex;
+					justify-content: center;
+					padding: 20px 0 0 0;
+					order: 2;
+
+	button{
+    border: none;
+    padding: 0!important;
+    width: 35px;
+    height: 34px;
+    margin: 0 5px;
+    font-size: 0;
+  }
+  button.owl-prev{
+    background: url('../images/bg/btn-prev.png');
+}
+button.owl-next{
+    background: url('../images/bg/btn-next.png');
+}
+}
+
+
+		} 	
+} 
+
+.page-id-127 #carousel-post > div > div.title-carousel > h2{font-size: 26px !important;    font-weight: 400 !important;    line-height: 26px;}
+
+.page-id-127 #carousel-post > div > div.title-carousel > h3{    margin-top: 0px !important;    font-size: 24px;}
+
+#acontece-ecossistema > div > div > div.owl-carousel.owl-carousel-ecosistema.owl-loaded.owl-drag > div.owl-stage-outer > div > div > div > div > div.conteudo-post{flex-direction: row;}

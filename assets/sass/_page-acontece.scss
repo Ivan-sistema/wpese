@@ -1,0 +1,39 @@
+/*==================
+ACONTECE NA ESE
+=================*/
+
+#acontece-na-ese{
+	@extend %config-base;
+	background: $cinza3;
+	padding: 120px 0 30px;
+
+	.container-carousel-acontece{
+		width: 980px;
+		max-width: 100%;
+		margin: 0 auto;
+
+		h2{
+			color: #363636;   
+			line-height: 20px;
+		}
+		h3{
+		    margin: 3% 0 1%;
+		    color: #363636;
+		    font-weight: 300;
+		}
+
+	}
+		
+		
+}
+
+#acontece-ecossistema{
+	@extend %config-base;
+	background: #f6f6f6;
+	padding: 2% 0;
+
+	h3{
+	    margin: 2% 0;
+		color: #363636;
+	}
+}

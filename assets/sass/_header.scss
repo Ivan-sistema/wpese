@@ -1,0 +1,78 @@
+/*==========================
+			TOPO
+===========================*/
+
+
+#topo{
+	
+	background: #333437;
+	transition: $transition;
+		height: 40px;
+
+	.container-ese{
+		height: 40px;
+	    display: flex;
+	    align-items: center;
+
+	    .col a{
+	    	i{
+	    		color: $branco;
+	    		font-size: 20px;
+				margin: 0 10px 0 0;
+	    	}
+	    }
+
+	    .portal-topo a{
+			color: $branco;
+			font-weight: 300;
+			font-size: 13px;
+			padding: 0 20px; 
+		}
+	}
+
+}
+
+
+
+/*======================
+		HEADER
+========================*/
+
+#header{
+
+	@extend %config-base;
+	background: #127bdc; 
+    z-index: 99999;	
+    transition: 0.5s all;
+}
+
+#scroll-header{
+	background: url('../images/fundo.header.png') ;
+    z-index: 99999 ;
+    position:fixed ;
+    top: 0 ;
+    @extend %config-base;
+    transition: 0.2s all ;
+	height: 0 ;
+	overflow: hidden;
+}
+#scroll-header .col-logotipo  a img{
+	width: 100%;
+	height: auto;
+}
+.col-logotipo{
+	width: 20%;
+	margin: 15px 0;
+	@extend %config-base;
+}
+.col-menu{
+	width: 72%;
+	@extend %config-base;
+}
+
+/*======================
+SLIDER
+=========================*/
+#slider{
+@extend %config-base;
+}

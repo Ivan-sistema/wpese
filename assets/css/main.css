@@ -1,0 +1,241 @@
+.centralizado{	justify-content: center;	align-items: center;}
+
+.between{	justify-content: space-between;}
+
+.around{	justify-content: space-around;}
+
+.column{	flex-direction: column;}
+
+.flex-1{	flex: 1;}
+
+.flex-3{	flex:3;}
+
+.centralizado-height{	align-items: center;}
+
+.centralizado-width{	justify-content: center;}
+
+.text-center{	text-align: center;}
+
+.container-full-ese{	width: 100%;	float: left;	position: relative;	max-width: 100%;}
+
+.container-ese{	width: 90%;	max-width: 980px;	color: #fff;	margin: 0 auto;}
+
+/*======================		BREADCRUMBS=========================*/
+
+#breadcrumbs{	height: 50px; 	color: #989898 !important;    position:relative;    width: 100%;    float: left;    background: #fff;}
+
+#breadcrumbs .container-full-ese .container-ese{	color: #989898 !important;	font-size: 15px;}
+
+#breadcrumbs .container-full-ese .container-ese a{    color: #989898 !important;	font-size: 15px;}
+
+#breadcrumbs .container-full-ese .container-ese i{    color: #989898 !important;	font-size: 22px;}
+
+.breadcrumb {    display: -webkit-box;    display: -ms-flexbox;    display: flex;    -ms-flex-wrap: wrap;    flex-wrap: wrap;    padding: 0;    margin-bottom: 0 !important;    justify-content: center;    list-style: none;    background-color:transparent !important;    border-radius: ;    align-items: center;	color: #989898 !important;	font-size: 15px;}
+
+#breadcrumbs > div > div > div > a{	padding: 0 20px;	font-size: 15px;}
+
+
+
+
+/*=======================	PAGE GRADUAÇÃO=========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CURRICULO SLIDER*/
+
+
+
+
+
+
+@media(max-width: 700px){#slider {  /*  margin-top: 30px;*/}	#topo{	width: 100%;	float: left;	position: relative;	height: auto;	}		#topo > div > div > div:nth-child(1),	#topo > div > div > div:nth-child(2){		display: none;	}	#topo > div > div{		flex-direction: column;		height: auto;		align-items: center;	}	#topo > div > div > div{		margin: 2.5% 0;	}	#topo .container-full-ese {	    height: auto;	    display: flex;	    justify-content: center;	    align-items: center;	}	.col-logotipo {	    width: 28%;	    float: left;	    position: relative;	    margin: 15px 0 15px 15px;	    z-index: 999;	}	#scroll-header > div > div,	#header > div > div{		width: 100%;	}	/*MENU*/#scroll-header > .menu-header .abrir-nav,	.abrir-nav{	width: 30px;	    height: 30px;	    margin-top: 20px;	    margin-bottom: 15px;	    margin-right: 15px;	    float: right;	    display: flex;	    flex-direction: column;	    justify-content: space-around;	    padding: 5px;	    border-radius: 5px;		}			.mm_line{ display: block;        width: 30px;        height: 2px;        transition: .5s ease-in-out;		background:#fff;		position: relative;		}	.mm_line:before,    .mm_line:after {    	background:#fff;content: '';        display: block;        width: 100%;        height: 100%;        position: absolute;        transition: .3s ease-in-out;    }    .mm_line:before {        top: -10px;    }   .mm_line:after {        bottom: -10px;    }    .abrir-nav-hamburguer .mm_line {        transform: rotate(45deg);    }  .abrir-nav-hamburguer .mm_line:before {        transform: rotate(90deg);        top: 0;    }    .abrir-nav-hamburguer .mm_line:after {        transform: rotate(90deg);        bottom: 0;    }		#scroll-header > .menu-header .col-menu,	.col-menu {	    width: 100%;	    float: right;	    position: relative;	    margin-top: -85px;	}	#scroll-header > .menu-header,	.menu-header{		display: none;		position: absolute;		width: 100%;		background: #fff;	    margin-top: 83px;	}		#scroll-header > .menu-header ul li,	.menu-header ul li{		width: 100%;		padding: 1%;		text-align: center;	}	#scroll-header > .menu-header ul li a,		.menu-header ul li a{	color: #000;	    font-size: 14px;	    font-weight: 500;	    width: 100%;	    padding: 2px 0;	}	.active-menu{		display: block !important;		transition: 1s all;	}#scroll-header > .menu-header ul li ul,	.menu-header ul li ul {	    flex-direction: column;	    transition: 2s all;	    /* display: none; */	    margin-top: 0;	    position: relative;	}#scroll-header > .menu-header ul li ul.sub-menu,	.menu-header ul li ul.sub-menu {	    width: 100% !important;	    background: #ffffff;	    padding: 0;	    box-shadow: none;	}#scroll-header > .menu-header ul li ul li,	.menu-header ul li ul li {	    width: 100% !important;		text-align: center;	}	.box-carousel-post-acontece,	.box-carousel-post{		width: 100%;	    height: auto;	    float: left;	    position: relative;	    display: flex;	    padding: 0 0 5% 0;	    margin: 0 0;	    flex-direction: column;	    background: #fff;	} 	#acontece-ecossistema .box-carousel-post-ecossistema{		width: 80%;    padding: 0 0 5% 0;    margin: 0 10%;	} 	.owl-carousel .owl-item img {    height: auto;	}	#quemsomos-home .main-quemsomos {	    padding: 33px 0 0;	}	.quemsomos-home-container {	    flex-direction: column;	}	.quemsomos-box{		width: 100%;		border-left: none !important;		border-right: none !important;		padding: 5% 0;	}	.quemsomos-box-content-center{		width: 100%;		padding: 5% 0;		/*		border-top: 2px solid #fff;		border-bottom: 2px solid #fff;*/	}#quemsomos-home > div.container-ese.display-flex > div > div > div > div.separador-p-small {    width: 80px;}
+
+.main-quemsomos > .btn-ese {    width: 147px;    /* margin-top: 38px; */    margin: 38px auto 0;}
+
+.quemsomos-box-content,.quemsomos-box-content-center {    width: 100%;    position: relative;    padding: 0 0;    display: flex;    flex-direction: column;    justify-content: center;    align-items: center;    text-align: center;    margin: 2% 0;}
+
+	.quemsomos-home-container h3 {    margin: 22px 0 0;    text-align: center;}
+
+	#quemsomos-home {		background-size:100%;	   height: auto;	    max-height: 1900px;	    width: 100% !important;	    transition: 1s all;	    float: left;	    padding: 0 0 10%;    	    background-repeat: no-repeat;	    background-position: center;	    background-size: cover;	/*    background-image: none !important;	    background-color: #127bdc;*/	    /* background-color: bisque !important; */	}	#cursos {	    margin: -815px 0 0;	}	/*=================================	MODAL	=======================================*/.modal-container {    width: 85%;    background: #fff;    border-radius: 5px;    margin: 3% auto;    padding: 5%;    overflow-x: auto;    height: 470px;}
+
+	.modal-container .sairmodal {    float: right;    position: fixed;    right: 25px;    z-index: 999;}
+
+.content-modal{	width: 100%;	float: left;	position: relative;}
+
+.img-modal {      width: 100%;    margin: 5% 0;    float: left;    position: relative;    display: block;}
+
+.modal-container .btn-action-modal{	    width: 130px;    margin: 5% auto;    border-radius: 25px;    background: #127bdc;    padding: 10px 30px;   text-align: center;    position: relative;    display: flex;    justify-content: center;}
+
+.img-modal img {    width: 100%;    height: auto;}
+
+/*==========================FOOTER==================================*/#footer > div > div.container-ese.display-flex{	height: auto !important;	flex-direction: column;}
+
+.col-footer-menu1,.col-footer-menu2{    width: 100%;    position: relative;    float: left;}
+
+.menu-footer1 ul li,.menu-footer1 ul li:first-child,.menu-footer1 ul li:last-child,.menu-footer2 ul li,.menu-footer2 ul li:first-child,.menu-footer2 ul li:last-child,.menu-footer2 ul li ul li,.menu-footer2-contato{    width: 100%;    padding: 1% 0;    margin: 1% 0;}
+
+	/*=================================	GRADUACAO	=============*/
+
+	#ocurso > div > div > div ul li{		margin-left: 16px;	}	#ocurso {    padding: 30px 0 0;}
+
+	#ocurso > div > div.container-ese.display-flex.between,	.content-container-ese,	#vestibular-curso > div {		flex-direction: column;	}	#ocurso > div > div > .col,	#vestibular-curso .container-ese .col {	    width: 100%;	    padding: 2% 0;    	    max-width: 100%;	}	#vestibular-curso .container-ese .col img{	    width: 100%;	    height: auto;	}	#vestibular-curso {	    height: auto;	    padding: 5% 0;	}/*=======MATRIZ CURSO=======*/	#matriz-curso{		height: auto;	}	.container-matriz{		display: none;	}	.container-matriz-mobile{		display: block;	}	.menu-matriz,	.content-matriz-curricular {    width: 100%;}
+
+	.box-content-matriz-curricular {    width: 98%;    padding: 0 0.8%;}
+
+	.btn-matriz-curricular {    width: 70%;    margin: 2% 15% 5%;}
+
+	.box-curriculo-slider > .item > .col-box-curriculo-slider,	.box-curriculo-slider > .item > .col-box-curriculo-slider-right {	    width: 100%;	    margin: 9% 0 2%;	    display: flex;	    justify-content: center;	    /* align-items: center; */	    height: auto;	}	.container-ese-professores,	.box-curriculo-slider{		height: auto;	}	.container-ese-professores,	.box-curriculo-slider{	}	.title-carousel-curriculo-slider{		width: 100%;		padding: 0;		text-align: center;	}	.box-conteudo-curriculo{		width: 100%;	    flex-direction: column;	}	.box-conteudo-curriculo .icone {		display: none;	   /* width: 100%;	   margin-right: 30px; 	    float: left;	    display: none;	    position: relative;	    display: flex;	    align-items: center;	    margin: 5% 0;	    flex-direction: column;*/	}	.col-box-curriculo-slider-right > div > div.icone > i, 	.box-conteudo-curriculo .icone i {	    color: #127bdc;	    font-size: 50px;	}	.box-conteudo-curriculo .content-curriculo {	   width: 100%;	}	.box-conteudo-curriculo .content-curriculo ul{		margin: 10px 0;	}	.box-conteudo-curriculo .content-curriculo ul li{		margin: 5px 0;	}	#professores-curso > div > div.container-ese-professores > div > div.owl-nav,	#acontece-na-ese > div > div > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-nav,	#acontece-ecossistema > div > div > div.owl-carousel.owl-carousel-ecosistema.owl-loaded.owl-drag > div.owl-nav,	#carousel-post > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-nav {		display: none !important;	}	#professores-curso > div > div.container-ese-professores > div > div.owl-dots{width: 100%;    float: left;    position: absolute;    display: flex;    justify-content: center;    bottom: 0;        margin: -3% 0;	}	#acontece-na-ese > div > div > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-dots,	#acontece-ecossistema > div > div > div.owl-carousel.owl-carousel-ecosistema.owl-loaded.owl-drag > div.owl-dots{		width: 100%;		float: left;		position: relative;		display: flex;		justify-content: center;		margin: 0 0 10% 0;	}	#professores-curso > div > div.container-ese-professores > div > div.owl-dots > button.owl-dot,	#acontece-na-ese > div > div > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-dots > button.owl-dot,	#acontece-ecossistema > div > div > div.owl-carousel.owl-carousel-ecosistema.owl-loaded.owl-drag > div.owl-dots > button.owl-dot {		border:1px solid #7f7f7f;		width: 10px;		height: 10px;		margin: 0 2px;		border-radius: 25px;	}	#professores-curso > div > div.container-ese-professores > div > div.owl-dots > button.owl-dot.active,	#acontece-na-ese > div > div > div > div.owl-carousel.owl-loaded.owl-drag > div.owl-dots > button.owl-dot.active,	#acontece-ecossistema > div > div > div.owl-carousel.owl-carousel-ecosistema.owl-loaded.owl-drag > div.owl-dots > button.owl-dot.active{		background: #7f7f7f;		width: 10px;		height: 10px;		border-radius: 25px;	}	#vestibular-datas{		background-size:100%;	   height: auto;	    background-repeat: no-repeat !important;	    background-position: center !important;	    background-size: cover !important;	}	.right-col-vestibular .box-form,	.box-vestibular-aberto .right-col-vestibular {		width: 100%;	    margin: 0 auto;	    padding: 5% 0;	}.box-vestibular-aberto {    margin: 5% 5;    width: 90%;}
+
+	#vestibular-datas > div:nth-child(1) > div > div > div.container-full-ese.display-flex.centralizado{	flex-direction: column;	display: flex;}
+
+.btn-vestibular-aberto {    width: 80%;    margin: 5px 0;}
+
+#vestibular-datas{	background: #061727!important;}
+
+#vestibular-datas > div:nth-child(2){	margin: 10% 0 0 !important;}
+
+	#inscricao-mba > div.container-full-ese > div > div.col-vestibular-center > .box-form {	    width: 96%;	    padding: 60px 2%;	    margin: 90px 0;	}	.form-vestibular-curso-mba input[type=email], .form-vestibular-curso-mba input[type=text],	.form-vestibular-curso-mba textarea{	    width: 100%;	    margin: 1% 0;	    padding: 2% 2%;	}.col-vestibular-100{	margin: 2% 0;	flex-direction: column;}
+
+	.left-col-vestibular {	    float: left;	    position: relative;	    width: 100%;	    margin: 5% 0;	}	.right-col-vestibular {	    float: left;	    position: relative;	    width: 100%;	    margin: 5 0;	}	#inscricao-mba .container-full-ese .container-ese {	    padding: 5% 0;	}	#inscricao-mba > div.container-full-ese > div > div.col-vestibular-center > .box-form {	    width: 96%;	    padding: 60px 2%;	    margin: 5% 0;	}	#inscricao-mba > div.container-ese > div:nth-child(1) > div{		margin: 5% 0;	}	#inscricao-mba .container-full-ese .container-ese h2 {    font-size: 28px !important;}
+
+	#vestibular-curso-mba {    padding: 0 0;}
+
+#vestibular-curso-mba .col {    width: 100%;    float: left;    position: relative;    padding: 5% 0;}
+
+.col-vestibular-center .box-form .info-pessoal select, .col-vestibular-center .box-form .info-geral-form select, .col-vestibular-center .box-form .info-geral-form input[type=text],form > div.info-geral-form input[type=file],form > div.info-geral-form textarea{	width: 100%;	margin: 1% 0;}
+
+	#acontece-na-ese {	    padding: 40px 0;	}	#acontece-na-ese h2 {	    color: #363636;	    line-height: 44px;	}	/*===============	CONTATO	===================*/	#contato {	    margin-top: -100px;	}	#contato .container-full-ese .container-ese {	    width: 90%;    	    flex-direction: column;	}	#contato .col:first-child {	    width: 100%;	}	#contato .col .cont-conteudo {	    width: 90%;	    margin: 70px 5% 0 5%;	}	#contato .col .form {	    width: 100%;	    margin: 0;	}	#contato .col .form input[type=submit] {	    margin: 42px 15%;	    width: 70%;	}	#contato .col {	    width: 100%;	    float: left;	    position: relative;	}	#contato > div > div > div:nth-child(2) > p > iframe{		height: 400px !important;	}/*		================	A ESE	=============*/#a-ese .container-full-ese  .container-ese  .col {    width: 100%;    float: left;    margin: 2% 0;}
+
+	.main-tab {	    width: 100%;	    float: left;	    position: relative;	    margin: 2% 0 0;	    display: flex;	    justify-content: normal;	    flex-direction: column;	    padding: 2% 0;	}	.box-carousel-post-estrutura .post_thumb {	    width: 100%;	    height: auto; 	}	#conheca-a-ese > div > div > div > div > div > div.owl-dots{	    margin-top: 30px;	}	#conheca-a-ese > div > div > div > div > div > div.owl-nav{	    display: none;	}	#aese-nossa-historia > div > img{		width: 100%;		height: auto;	}#conheca-a-ese > div:nth-child(2) > div > div > div.tab-index.tab-index-3 > div.display-flex.between{	flex-direction: column;}
+
+#conheca-a-ese .tab-index-3 > div > .col,.col-mvp,.center {	width: 100% !important;	margin: 1% 0 !important;}
+
+.center{	    max-width: 94%;}
+
+/*CAROUSEL GESTÃO EXECUTIVA*/.carousel-box-left {    width: 100%;}
+
+.carousel-box-right {    width: 96%;    margin: 2%;}
+
+.carousel-box-title {    text-align: center;}
+
+.carousel-box-btn {    width: 40%;    margin: 2% 30%;}
+
+#competencias-empreendedoras .container-ese > .title-comp > h2{        font-size: 50px;    line-height: 50px;}
+
+#competencias-empreendedoras .container-ese > .conteudo-comp-left {    width: 100%;}
+
+#competencias-empreendedoras .container-ese > .conteudo-comp-left img{    width: 100%;    height: 0 auto;}
+
+#competencias-empreendedoras .container-ese > .conteudo-comp-right {    width: 100%;}
+
+.separador-treecolor {    background-size: 100%;    width: 30%;    margin-right: 70%;}
+
+#pesquisas-publicadas .container-ese > .col-pesquisa-left,.col-cpa-left,.col-cpa-right {    width: 100%;    float: left;    position: relative;    margin: 2% 0;}
+
+#pesquisas-publicadas .container-ese > .col-pesquisa-right {    width: 100%;    float: right;    position: relative;}
+
+#pesquisas-publicadas .container-ese > .col-pesquisa-right img,.col-cpa-left img{    width: 100%;    height: auto;}
+
+.img-pesq,.img-cpa {    margin-right: 0;    margin-left:0;}
+
+#conheca-a-ese > div > div > div > div > div > div.owl-dots, #carousel-post > div > div > div.owl-dots {    margin-top: 0; }#footer {    padding: 2% 0;}
+
+.col-footer-logotipo{	width: 50%;	margin: 2% 25%;}
+
+.col-footer-logotipo img{	width: 100%;	height: auto;}
+
+.col-footer-redes {    bottom: auto;}
+
+#carousel-post > div > div.owl-carousel.owl-carousel-home.owl-loaded.owl-drag > div.owl-stage-outer{	height: auto;}
+
+/*GRADUACAO*/#conheca-a-ese .owl-carousel .owl-stage-outer,#acontece-na-ese .owl-carousel.owl-carousel-acontece .owl-stage-outer,#acontece-ecossistema  .owl-carousel-ecosistema .owl-stage-outer{	        height: auto;    	        overflow: auto !important;	    }.owl-carousel .owl-stage-outer{	        overflow: overlay !important;	        height: 800px;	        margin-bottom: 20px;}
+
+.owl-carousel .owl-stage:after{	display: initial;}
+
+.box-curriculo-slider > .item > .col-box-curriculo-slider {    width: 100%;    display: flex;    justify-content: center;    /* align-items: center; */    margin: 10px 0;}
+
+}/*@media(max-width: 500px){		#cursos {	    margin: -780px 0 0;	}}*/@media(max-width: 600px){.box-carousel-post-acontece, .box-carousel-post {    width: 60%;    margin: 0 20%;}
+
+.col-vestibular h2{	font-size: 33px;}
+
+#bolsas-curso {    height: auto;}
+
+.custom-logo{	width: 100%;	height: auto;}
+
+#inscricao-mba > div.container-full-ese > div > div.col-vestibular-center > .box-form {    width: 96%;    padding: 4px 2%;    margin: 5% 0;}
+
+form > div.info-geral-form input[type=submit] {    width: 70%;    margin: 3% auto;    padding: 3% 30px;}
+
+#vestibular-curso .container-ese .col .form-vestibular-curso input[type=text], #vestibular-curso .container-ese .col .form-vestibular-curso input[type=email],.right-col-vestibular .box-form input[type=text], .right-col-vestibular .box-form input[type=email],.col-vestibular-center .box-form .info-pessoal input[type=email], .col-vestibular-center .box-form .info-pessoal input[type=tel], .col-vestibular-center .box-form .info-pessoal input[type=text],.col-vestibular-center .box-form .info-pessoal select, .col-vestibular-center .box-form .info-geral-form select, .col-vestibular-center .box-form .info-geral-form input[type=text],form > div.info-geral-form input[type=file],#contato .col .form input[type=text], #contato .col .form input[type=email],.form-vestibular-curso-mba input[type=email], .form-vestibular-curso-mba input[type=text]{ 	width: 100%;    height: 50px;    font-size: 20px;}
+
+#vestibular-curso .container-ese .col .form-vestibular-curso textarea,.right-col-vestibular .box-form textarea,#contato .col .form textarea, .form-vestibular-curso-mba textarea {     font-size: 20px;}
+
+.form-vestibular-curso-mba input[type=submit] {    width: 70%;    display: inline-block;    margin: 20px 15%;}
+
+.conteudo-acordeon-matriz-mobile .box-content-matriz-curricular{	width: 98%;	float: left;	position: relative;}
+
+/*SEÇÕES*/#conheca-a-ese-secao{    top: 1120px;}
+
+#comp-empreendedoras-secao{    top:1750px;}
+
+#pesquisa-publicada-secao{    top: 2850px;}
+
+#cpa-secao{    top: 4000px;}
+
+}@media(max-width: 480px){	#topo .portal-topo a {    font-size: 14px;    padding: 0 8px; }.col-logotipo{	width: 40%;}
+
+#inscricao-mba .container-full-ese .container-ese h2 {    font-size: 18px !important;    line-height: 20px;}
+
+#quemsomos-home .main-quemsomos h2 {    font-size: 43px;    line-height: 51px;}
+
+.title-cursos h2  {    font-size: 35px;    line-height: 51px;    text-align: center;}
+
+#quemsomos-home .main-quemsomos {    padding: 33px 0 48px;}
+
+#quemsomos-home > div.container-ese.display-flex > div > div > div > div.separador-p-small{	/*width: 27%;*/	margin: 0 36.5%;}
+
+#cursos {    margin: -815px 0 0;}
+
+.title-cursos {    height: 100px;}
+
+#carousel-post .title-carousel h2 {    line-height: 42px;}
+
+.box-carousel-post-acontece, .box-carousel-post {    width: 90%;    margin: 0 5%;}
+
+.carousel-box-btn {    width: 80%;    margin: 2% 10%;}
+
+/*SLIDE BULLETS*/.ares.tp-bullets {    width: 100% !important;    display: flex;    justify-content: center;    align-items: center;    position: relative;    display: none;}
+
+#inscricao-mba > div.container-ese > div:nth-child(2) > ul > div{	margin: 15px 0;}
+
+#inscricao-mba > div.container-ese > div:nth-child(2){	padding: 2% !important;}
+
+#conheca-a-ese .container-full-ese .title-conheca-a-ese h2 {	line-height: 42px;	font-size: 36px;}
+
+#competencias-empreendedoras .container-ese > .title-comp > h2 {    font-size: 36px;    line-height: 37px;}
+
+}@media(max-width: 380px){	#carousel-post .title-carousel h2 {    font-size: 40px;    text-align: center;}
+
+#header{    /*top: 34px;*/}#pesquisa-publicada-secao{    top: 2750px;}
+
+#cpa-secao{    top: 4100px;}
+
+}/*		================	A ESE	=============#a-ese .container-full-ese  .container-ese  .col {    width: 100%;    float: left;}
+
+.main-tab {	    width: 100%;	    float: left;	    position: relative;	    margin: 2% 0 0;	    display: flex;	    justify-content: normal;	    flex-direction: column;	    padding: 2% 0;	}	.box-carousel-post-estrutura .post_thumb {	    width: 100%;	    height: auto; 	}	#conheca-a-ese > div > div > div > div > div > div.owl-dots{	    margin-top: 30px;	}	#conheca-a-ese > div > div > div > div > div > div.owl-nav{	    display: none;	}	#aese-nossa-historia > div > img{		width: 100%;		height: auto;	}}*/@media (max-width: 782px)html {    margin-top: 0 !important;}
+

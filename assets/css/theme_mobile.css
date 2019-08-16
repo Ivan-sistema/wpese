@@ -1,0 +1,298 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*FONTE*/
+/*CORES*/
+* {
+  outline: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: 'Roboto', sans-serif;
+  font-weight: font-weight 400;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+/*TRASAÇÂO*/
+/*FLEX*/
+.separador-p, .separador-azul, .separador-p-small, .separador-ul {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: font-weight 900;
+}
+
+h2 {
+  font-weight: font-weight 700;
+  font-size: 52px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 23px;
+  color: #5a5a5a;
+  margin: 10px 0;
+}
+
+small {
+  font-size: 14px;
+  line-height: 23px;
+  color: #5a5a5a;
+}
+
+a {
+  text-decoration: none !important;
+}
+a :hover {
+  text-decoration: none !important;
+}
+
+.separador-p, .separador-azul, .separador-p-small, .separador-ul {
+  height: 9px;
+}
+
+.fixo {
+  top: 0 !important;
+  height: 85px !important;
+  transition: 1s all;
+  overflow: visible !important;
+}
+
+.separador-p {
+  background: url(../images/bg/separador.png) no-repeat;
+}
+
+.separador-azul {
+  background: url(../images/bg/separador-azul.png) no-repeat;
+}
+
+.separador-p-small {
+  background: url(../images/bg/separador.png) no-repeat;
+}
+
+.separador-ul {
+  background: url(../images/bg/separador-ul.png) no-repeat;
+  height: 1px;
+}
+
+/*======================
+		BOTÃO
+==========================*/
+.btn-ese, .btn-ese-default {
+  height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  width: fit-content;
+}
+
+.btn-ese {
+  margin-top: 20px;
+}
+
+.btn-ese-default {
+  margin: 20px auto;
+}
+
+.btn-ese a,
+.btn-ese-default a {
+  color: #fff;
+  text-decoration: none;
+  /*text-transform: uppercase;*/
+  font-size: 14px;
+}
+
+.btn-ese:hover a,
+.btn-ese-default:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*=====================
+1100
+=======*/
+@media (max-width: 1100px) {
+  #scroll-header .menu-header ul li, #header .menu-header ul li {
+    padding: 0 3%;
+  }
+
+  #cursos .curso-home .container-ese {
+    max-width: 300px !important;
+  }
+
+  #carousel-post .owl-carousel-home .box-carousel-post {
+    width: 226px;
+  }
+  #carousel-post .owl-carousel-home .owl-nav {
+    width: 1040px;
+  }
+
+  #competencias-empreendedoras .title-comp h2 {
+    font-size: 60px;
+  }
+
+  #pesquisas-publicadas .container-full-ese .container-ese .col-pesquisa-right .img-pesq {
+    width: 578px;
+    margin-right: -145px;
+    height: auto;
+  }
+
+  #matriz-curso .container-ese .container-matriz .content-matriz-curricular div .box-content-matriz-curricular {
+    width: 31% !important;
+  }
+
+  #vestibular-curso .container-ese .col img {
+    width: 100%;
+    height: auto;
+  }
+
+  #footer .container-ese .col-footer-menu2 {
+    width: 720px;
+  }
+  #footer .container-ese .col-footer-menu2 nav .menu-footer2 ul li {
+    width: 186px;
+  }
+}
+@media (max-width: 980px) {
+  #pesquisas-publicadas .container-full-ese .container-ese .col-pesquisa-right .img-pesq {
+    width: 540px;
+    margin-right: -131px;
+    height: auto;
+  }
+
+  #a-ese-secao, #conheca-a-ese-secao, #comp-empreendedoras-secao,
+  #pesquisa-publicada-secao, #cpa-secao {
+    height: auto;
+  }
+
+  #footer .container-ese .col-footer-menu2 {
+    width: 100%;
+  }
+  #footer .container-ese .col-footer-menu2 nav .menu-footer2 ul li {
+    width: 186px;
+  }
+  #footer .container-ese .menu-footer2-contato {
+    width: 100%;
+  }
+}
+/*======================
+900PX
+==========*/
+@media (max-width: 900px) {
+  #header .container-full-ese .container-ese .col-logotipo {
+    width: 25%;
+  }
+  #header .container-full-ese .container-ese .col-logotipo a img {
+    width: 100%;
+    height: auto;
+  }
+
+  #carousel-post .owl-carousel-home .box-carousel-post {
+    width: 226px;
+  }
+  #carousel-post .owl-carousel-home .owl-nav {
+    display: none !important;
+  }
+
+  #competencias-empreendedoras .title-comp h2 {
+    font-size: 47px;
+  }
+
+  #pesquisas-publicadas .container-full-ese .container-ese .col-pesquisa-right .img-pesq {
+    width: 470px;
+    margin-right: -124px;
+  }
+
+  #matriz-curso .container-ese .container-matriz .content-matriz-curricular div .box-content-matriz-curricular {
+    font-size: 13px;
+  }
+
+  #acontece-na-ese .container-carousel-acontece {
+    max-width: 90%;
+  }
+
+  #professores-curso > div > div.container-ese-professores > div {
+    height: auto;
+  }
+
+  .box-curriculo-slider > .item > .col-box-curriculo-slider {
+    width: 100%;
+    height: auto;
+  }
+
+  .box-curriculo-slider > .item > .col-box-curriculo-slider-right {
+    width: 100%;
+  }
+
+  .box-conteudo-curriculo .icone {
+    display: none;
+  }
+
+  .title-carousel-curriculo-slider {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0;
+  }
+
+  .box-conteudo-curriculo {
+    width: 90%;
+    margin: 1% 5%;
+  }
+
+  .box-conteudo-curriculo .content-curriculo {
+    width: 100%;
+  }
+
+  .box-conteudo-curriculo .content-curriculo:last-child {
+    padding-bottom: 5%;
+  }
+
+  #professores-curso > div > div.container-ese-professores > div > div.owl-nav {
+    margin-top: 30%;
+    position: absolute;
+  }
+
+  #contato {
+    margin-top: -259px;
+  }
+  #contato .col .content-conteudo {
+    width: 90%;
+    margin: 4% 5% 0;
+  }
+  #contato .col .form {
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  #carousel-post > div > div > div.owl-nav {
+    width: 834px;
+    margin-left: -34px;
+  }
+}
+@media (max-width: 780px) {
+  #scroll-header .menu-header ul li, #header .menu-header ul li {
+    padding: 0 2%;
+  }
+}

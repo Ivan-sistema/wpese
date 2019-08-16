@@ -1,0 +1,595 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+/*FONTE*/
+/*CORES*/
+* { outline: none; box-shadow: none; margin: 0; padding: 0; }
+
+body, html { font-family: 'Roboto', sans-serif; font-weight: font-weight 400; margin: 0; padding: 0; background: #fff; }
+
+/*TRASAÇÂO*/
+/*FLEX*/
+#quemsomos-home .main-quemsomos, .quemsomos-home-container, #cursos .cursos-home, #a-ese .container-ese .col, #conheca-a-ese .main-tab, #conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col-mvp, #cpa .btn-rel, #carousel-post .owl-carousel .box-carousel-post, #carousel-post .owl-carousel .box-carousel-post .title-carousel-post, #carousel-post .owl-carousel .box-carousel-post .conteudo-post, #carousel-post .owl-carousel .owl-nav, #carousel-post .owl-carousel .owl-dots, .carousel-post-acontece, .carousel-post-acontece .date-post, .carousel-post-acontece .title-carousel-post, .carousel-post-acontece .title-carousel-post .col, .owl-carousel-acontece .owl-nav, .owl-carousel-ecossistema .owl-nav, .carousel-post-ecossistema, .carousel-post-ecossistema .conteudo-post, .carousel-post-ecossistema .conteudo-post .conteudo-data-post, .owl-carousel-gestao-executiva .carousel-box-left, .owl-carousel-gestao-executiva .carousel-box-right .carousel-box-btn, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-left, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-right, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider .icone, .owl-carousel-graduacao .owl-nav, #conheca-a-ese .owl-carousel-estrutura .owl-dots, #conheca-a-ese .owl-carousel-estrutura .owl-nav, #ocurso .container-ese, #ocurso .detalhe-curso .container-ese .content-container-ese, #ocurso .detalhe-curso .container-ese .content-container-ese .col, #vestibular-curso .container-ese, #vestibular-curso .container-ese .col, #vestibular-curso .container-ese .col .form-vestibular-curso input[type=text], #vestibular-curso .container-ese .col .form-vestibular-curso input[type=email], #vestibular-curso .container-ese .col .form-vestibular-curso textarea, #vestibular-curso .container-ese .col .form-vestibular-curso input[type=submit], #matriz-curso .container-ese .col .container-matriz .menu-matriz .tab-matriz, #matriz-curso .container-ese .col .container-matriz .content-matriz-curricular .box-content-matriz-curricular, #matriz-curso .container-ese .col .container-btn-matriz-curricular .btn-matriz-curricular, #professores-curso .container-ese, #vestibular-datas .col-vestibular-100, #vestibular-datas .col-vestibular-100 .left-col-vestibular, #vestibular-datas .col-vestibular-100 .box-vestibular-aberto .col-vestibular-100 .btn-vestibular-aberto, #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form, #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form input[type=submit], #ocurso-mba .container-ese, #informativo-mba .informativo, #detalhes-mba .detalhe-curso-mba .content-container-ese, #detalhes-mba .detalhe-curso-mba .content-container-ese .btn-increva-se-mba, #vestibular-curso-mba .container-ese, #vestibular-curso-mba .container-ese .col, #vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba input[type=submit], #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form, #contato .container-ese .col:first-child, .acordeon .title-acordeon, .title-acordeon-matriz-mobile, #single-post .container-ese .single-post-ese article, #single-post .container-ese .single-post-ese article .date-single-post, #agradecimento .container-full-ese, #footer .container-ese .col-footer-redes, #footer .container-ese .col-copy { display: flex !important; }
+
+#quemsomos-home .main-quemsomos, #cursos .cursos-home, #a-ese .container-ese .col, #conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col-mvp, #carousel-post .owl-carousel .box-carousel-post, #carousel-post .owl-carousel .box-carousel-post .conteudo-post, .carousel-post-acontece, .carousel-post-ecossistema .conteudo-post .conteudo-data-post, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-right, #ocurso .detalhe-curso .container-ese, #ocurso .detalhe-curso .container-ese .content-container-ese .col, #vestibular-curso .container-ese .col, #professores-curso .container-ese, #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form, #informativo-mba .informativo, #vestibular-curso-mba .container-ese .col, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form, #contato .container-ese .col:first-child, #single-post .container-ese .single-post-ese article, #agradecimento .container-full-ese, #footer .container-ese .col-footer-menu2 .menu-footer2 nav ul li ul { flex-direction: column; }
+
+.quemsomos-home-container, #conheca-a-ese .main-tab, #carousel-post .owl-carousel .owl-nav, .owl-carousel-acontece .owl-nav, .owl-carousel-ecossistema .owl-nav, .owl-carousel-graduacao .owl-nav, #ocurso .container-ese, #ocurso .detalhe-curso .container-ese .content-container-ese, #vestibular-curso .container-ese, #ocurso-mba .container-ese, #vestibular-curso-mba .container-ese, .acordeon .title-acordeon, .title-acordeon-matriz-mobile { justify-content: space-between; }
+
+.owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider, #vestibular-datas .col-vestibular-100 .left-col-vestibular { justify-content: center; }
+
+#cursos .cursos-home, #a-ese .container-ese .col, #conheca-a-ese .main-tab-content .tab-index-2 .centralizar, #conheca-a-ese .main-tab-content .tab-index-3 .centralizar, #cpa .btn-rel, .carousel-post-acontece .date-post, .carousel-post-ecossistema, .carousel-post-ecossistema .conteudo-post, .owl-carousel-gestao-executiva .carousel-box-right .carousel-box-btn, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-left, #vestibular-curso .container-ese .col, #vestibular-curso .container-ese .col .form-vestibular-curso input[type=submit], #matriz-curso .container-ese .col .container-matriz .menu-matriz .tab-matriz, #matriz-curso .container-ese .col .container-matriz .content-matriz-curricular .box-content-matriz-curricular, #matriz-curso .container-ese .col .container-btn-matriz-curricular .btn-matriz-curricular, #vestibular-datas .col-vestibular-100 .box-vestibular-aberto .col-vestibular-100 .btn-vestibular-aberto, #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form, #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form input[type=submit], #informativo-mba .informativo, #detalhes-mba .detalhe-curso-mba .content-container-ese .btn-increva-se-mba, #vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba input[type=submit], #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form .file-input, #single-post .container-ese .single-post-ese article, #single-post .container-ese .single-post-ese article .date-single-post, .paginacao .pagina_anterior a, .paginacao .pagina_proximo a, #agradecimento .container-full-ese, #footer .container-ese .col-footer-redes, #footer .container-ese .col-copy { justify-content: center; align-items: center; text-align: center; }
+
+.separador-p, .separador-azul, .separador-p-small, .separador-ul, #quemsomos-home .main-quemsomos p span, #header, #scroll-header, .col-logotipo, .col-menu, #slider, #scroll-header > .menu-header, .menu-header, #scroll-header > .menu-header ul, .menu-header ul, .bordertop-nav, #quemsomos-home, .quemsomos-home-container .quemsomos-box .qs-title, .quemsomos-home-container .quemsomos-box .qs-content, .quemsomos-home-container .quemsomos-box .qs-btn, #cursos, #cursos .cursos-home, #a-ese, #conheca-a-ese, #conheca-a-ese .title-conheca-a-ese, #conheca-a-ese .main-tab, #conheca-a-ese .main-tab-content, #conheca-a-ese .main-tab-content .tab-index, #conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col, #conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col-100, #conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col-mvp, #conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col-mvp .content-mvp, #conheca-a-ese .main-tab-content .tab-index-3 .centralizar .content-mvp, #competencias-empreendedoras, #competencias-empreendedoras .title-comp, #competencias-empreendedoras .conteudo-comp-left, #pesquisas-publicadas, #pesquisas-publicadas .container-full-ese .col-pesquisa-left, #pesquisas-publicadas .container-full-ese .col-pesquisa-right, #pesquisas-publicadas .container-ese .col-pesquisa-main, #cpa, #cpa .col-cpa-left, #a-ese-secao, #conheca-a-ese-secao, #comp-empreendedoras-secao, #pesquisa-publicada-secao, #cpa-secao, #carousel-post, #carousel-post .title-carousel, #carousel-post .owl-carousel .box-carousel-post .title-carousel-post, #carousel-post .owl-carousel .box-carousel-post .conteudo-post, .page-id-127 #carousel-post, .carousel-post-acontece, .carousel-post-acontece .title-carousel-post, .owl-carousel-acontece .owl-nav button.owl-prev span, .owl-carousel-ecossistema .owl-nav button.owl-prev span, .carousel-post-ecossistema .conteudo-post, .carousel-post-ecossistema .conteudo-post .conteudo-data-post, .owl-carousel-estrutura .carousel-post-estrutura, .owl-carousel-gestao-executiva .carousel-box-left, .owl-carousel-gestao-executiva .carousel-box-right, .owl-carousel-gestao-executiva .carousel-box-right .carousel-box-title, .owl-carousel-gestao-executiva .carousel-box-right .carousel-box-content, .owl-carousel-gestao-executiva .carousel-box-right .carousel-box-btn, .owl-carousel-graduacao .curriculo-slider, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-right, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider .icone, #conheca-a-ese .owl-carousel-estrutura .owl-dots, #conheca-a-ese .owl-carousel-estrutura .owl-nav, #ocurso, #ocurso .detalhe-curso .container-ese .content-container-ese, #ocurso .detalhe-curso .container-ese .content-container-ese .col, #vestibular-curso, #vestibular-curso .container-ese .col .form-vestibular-curso, #vestibular-curso .container-ese .col .form-vestibular-curso input[type=text], #vestibular-curso .container-ese .col .form-vestibular-curso input[type=email], #vestibular-curso .container-ese .col .form-vestibular-curso textarea, #vestibular-curso .container-ese .col .form-vestibular-curso input[type=submit], #matriz-curso, #matriz-curso .container-ese .col .container-matriz, #matriz-curso .container-ese .col .container-matriz .menu-matriz, #matriz-curso .container-ese .col .container-matriz .menu-matriz .tab-matriz, #matriz-curso .container-ese .col .container-matriz .content-matriz-curricular, #matriz-curso .container-ese .col .container-matriz .content-matriz-curricular .box-content-matriz-curricular, #matriz-curso .container-ese .col .container-btn-matriz-curricular, #matriz-curso .container-ese .col .container-btn-matriz-curricular .btn-matriz-curricular, #professores-curso, #professores-curso .container-ese .title-professores, #vestibular-datas, #vestibular-datas .col-vestibular-100, #vestibular-datas .col-vestibular-100 .left-col-vestibular, #vestibular-datas .col-vestibular-100 .box-vestibular-aberto, #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form, #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form input[type=text], #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form input[type=email], #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form textarea, #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form input[type=submit], #segunda-graduacao, #bolsas-curso, #ocurso-mba, #informativo-mba, #detalhes-mba, #detalhes-mba .detalhe-curso-mba .content-container-ese, #vestibular-curso-mba, #vestibular-curso-mba .container-ese .col, #vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba, #vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba input[type=email], #vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba input[type=text], #vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba textarea, #vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba input[type=submit], #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form label, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal input[type=email], #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal input[type=tel], #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal input[type=text], #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal select, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form select, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form input[type=text], #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form textarea, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form #objetivo-profissional1, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form .file-input, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form input[type=url], #inscricao-mba .container-full-ese .container-ese .col-vestibular-mba, #acontece-na-ese, #acontece-ecossistema, #contato, #contato .container-ese .col, #contato .container-ese .col .cont-conteudo, #contato .container-ese .col .form, #contato .container-ese .col .form input[type=text], #contato .container-ese .col .form input[type=email], #contato .container-ese .col .form textarea, .container-acordeon, .acordeon, .acordeon .title-acordeon, .acordeon .conteudo-acordeon, .container-matriz-mobile, .acordeon-matriz-mobile, .title-acordeon-matriz-mobile, .conteudo-acordeon-matriz-mobile, .conteudo-acordeon-matriz-mobile .box-content-matriz-curricular, #faq, #single-post, #single-post .container-ese .single-post-ese article, #single-post .container-ese .single-post-ese article .date-single-post, #single-post .container-ese .single-post-ese article .post_thumb-single, #page, #agradecimento, #footer, #footer .container-ese .col-footer-logotipo, #footer .container-ese .col-footer-logotipo a img, #footer .container-ese .col-footer-menu1, #footer .container-ese .col-footer-menu1 .menu-footer1, #footer .container-ese .col-footer-menu1 .menu-footer1 nav, #footer .container-ese .col-footer-menu1 .menu-footer1 nav ul, #footer .container-ese .col-footer-menu1 .menu-footer1 nav ul li, #footer .container-ese .col-footer-menu2, #footer .container-ese .col-footer-menu2 .menu-footer2, #footer .container-ese .col-footer-menu2 .menu-footer2 nav, #footer .container-ese .col-footer-menu2 .menu-footer2 nav ul, #footer .container-ese .col-footer-menu2 .menu-footer2 nav ul li, #footer .container-ese .menu-footer2-contato, #footer .container-ese .col-footer-redes, #footer .container-ese .col-copy { float: left; position: relative; width: 100%; }
+
+#vestibular-curso .container-ese .col .form-vestibular-curso input[type=text]:focus, #vestibular-curso .container-ese .col .form-vestibular-curso input[type=email]:focus, #vestibular-curso .container-ese .col .form-vestibular-curso textarea:focus, #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form input[type=text]:focus, #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form input[type=email]:focus, #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form textarea:focus, #contato .container-ese .col .form input[type=text]:focus, #contato .container-ese .col .form input[type=email]:focus, #contato .container-ese .col .form textarea:focus { border: 1px solid #2574bc; }
+
+h1 { font-size: 72px; font-weight: font-weight 900; }
+
+h2 { font-weight: font-weight 700; font-size: 52px; line-height: 36px; }
+
+h3 { font-size: 26px; line-height: 32px; }
+
+p { font-size: 16px; line-height: 23px; color: #5a5a5a; margin: 10px 0; }
+
+small { font-size: 14px; line-height: 23px; color: #5a5a5a; }
+
+a { text-decoration: none !important; }
+a :hover { text-decoration: none !important; }
+
+.separador-p, .separador-azul, .separador-p-small, .separador-ul, #quemsomos-home .main-quemsomos p span { height: 9px; }
+
+#carousel-post .owl-carousel .owl-nav button.owl-prev, #carousel-post .owl-carousel .owl-nav button.owl-next, .owl-carousel-graduacao .owl-nav button.owl-prev, .owl-carousel-graduacao .owl-nav button.owl-next { border: none; padding: 0 !important; width: 35px; height: 34px; margin: 0 5px; font-size: 0; }
+
+#contato .container-ese .col .form input[type=text], #contato .container-ese .col .form input[type=email], #contato .container-ese .col .form textarea { border: 1px solid #e2e2e2; margin: 7px 0; border-radius: 5px; padding: 14px 10px; }
+
+.fixo { top: 0 !important; height: 85px !important; transition: 1s all; overflow: visible !important; }
+
+.separador-p { background: url(../images/bg/separador.png) no-repeat; }
+
+.separador-azul { background: url(../images/bg/separador-azul.png) no-repeat; }
+
+.separador-p-small { background: url(../images/bg/separador.png) no-repeat; }
+
+.separador-ul { background: url(../images/bg/separador-ul.png) no-repeat; height: 1px; }
+
+/*======================
+		BOTÃO
+==========================*/
+.btn-ese, .btn-ese-default { height: 40px; border-radius: 30px; cursor: pointer; display: flex; align-items: center; justify-content: center; text-align: center; background: transparent; border: 2px solid #fff; color: #fff; width: fit-content; }
+
+.btn-ese { margin-top: 20px; }
+
+.btn-ese-default { margin: 20px auto; }
+
+.btn-ese a, .btn-ese-default a { color: #fff; text-decoration: none; /*text-transform: uppercase;*/ font-size: 14px; }
+
+.btn-ese:hover a, .btn-ese-default:hover a { color: #fff; text-decoration: none; }
+
+/*==========================
+			TOPO
+===========================*/
+#topo { background: #333437; transition: 1s all; height: 40px; }
+#topo .container-ese { height: 40px; display: flex; align-items: center; }
+#topo .container-ese .col a i { color: #fff; font-size: 20px; margin: 0 10px 0 0; }
+#topo .container-ese .portal-topo a { color: #fff; font-weight: 300; font-size: 13px; padding: 0 20px; }
+
+/*======================
+		HEADER
+========================*/
+#header { background: #127bdc; z-index: 99999; transition: 0.5s all; }
+
+#scroll-header { background: url("../images/fundo.header.png"); z-index: 99999; position: fixed; top: 0; transition: 0.2s all; height: 0; overflow: hidden; }
+
+#scroll-header .col-logotipo a img { width: 100%; height: auto; }
+
+.col-logotipo { width: 20%; margin: 15px 0; }
+
+.col-menu { width: 72%; }
+
+/*======================
+SLIDER
+=========================*/
+/*====================
+
+MENU
+
+==========*/
+.abrir-nav { display: none; transition: 1s all; }
+
+#scroll-header > .menu-header, .menu-header { display: flex; align-items: center; }
+#scroll-header > .menu-header ul, .menu-header ul { margin: 0; padding: 0; list-style: none; }
+#scroll-header > .menu-header ul li, .menu-header ul li { float: left; position: relative; display: flex; flex-direction: column; padding: 0 0 0 56px; }
+#scroll-header > .menu-header ul li:hover a, .menu-header ul li:hover a { text-decoration: none; }
+#scroll-header > .menu-header ul li:hover ul, .menu-header ul li:hover ul { transition: 1s all; display: block; }
+#scroll-header > .menu-header ul li a, .menu-header ul li a { color: #fff; font-size: 14px; font-weight: 500; width: 100%; padding: 31px 0; cursor: pointer; }
+#scroll-header > .menu-header ul li ul, .menu-header ul li ul { flex-direction: column; transition: 1s all; display: none; margin-top: 84px; position: absolute; }
+#scroll-header > .menu-header ul li ul li, .menu-header ul li ul li { text-align: left; padding: 2% 1%; position: relative; width: 100%; float: left; }
+#scroll-header > .menu-header ul li ul li:hover a, .menu-header ul li ul li:hover a { color: #3a3a3b; }
+#scroll-header > .menu-header ul li ul li a, .menu-header ul li ul li a { color: #797b80; padding: 5px 0; }
+#scroll-header > .menu-header .sub-menu, .menu-header .sub-menu { width: 239px !important; background: #ffffff; padding: 30px; -webkit-box-shadow: 1px 1px 30px -3px rgba(0, 0, 0, 0.4); box-shadow: 1px 1px 30px -3px rgba(0, 0, 0, 0.4); }
+
+.bordertop-nav { margin: 2px 0; }
+
+.bordertop-menu { width: 0; background-image: url("../images/border-top-menu.jpg"); height: 2px; float: left; position: relative; }
+
+.menu-transition { transition: 100%; }
+
+/*==========================
+MODAL
+==================*/
+.modal { background: url("../images/bg-modal.png"); z-index: 999999; width: 100%; height: 100%; position: fixed; display: none; transition: 1s all; top: 0; bottom: 0; right: 0; left: 0; }
+
+.modal-container { width: 50%; background: #fff; border-radius: 5px; margin: 5% auto; padding: 5%; }
+
+.modal-container .sairmodal { float: right; position: relative; background: url("../images/btn-sair-modal.png"); width: 30px; height: 30px; background-size: cover; cursor: pointer; text-align: center; }
+
+.modal-container .btn-action-modal { width: 130px; margin: 5% auto; border-radius: 25px; background: #127bdc; padding: 10px 30px; text-align: center; }
+
+.modal-container .btn-action-modal a { color: #fff; }
+
+.img-modal { width: 100%; margin: 5% 0; display: flex; justify-content: center; }
+
+.img-modal img { width: auto; }
+
+/*============================
+QUEM SOMOS
+=====================*/
+#quemsomos-home { background-size: cover cover; height: 1280px; max-height: 1280px; transition: 1s all; }
+#quemsomos-home .main-quemsomos { padding: 112px 0 101px; }
+#quemsomos-home .main-quemsomos h2 { font-size: 62px; font-weight: 600; line-height: 100px; }
+#quemsomos-home .main-quemsomos p { font-size: 22px; font-weight: 300; line-height: 28px; color: #fff; }
+#quemsomos-home .main-quemsomos p span { width: 50px; height: 6px; }
+#quemsomos-home .btn-ese { width: 147px; margin-top: 38px; }
+
+.quemsomos-home-container { opacity: 0; transition: 1s all; }
+.quemsomos-home-container h3 { margin: 22 0 0; font-weight: bolder; }
+.quemsomos-home-container p { margin: 22px 0; font-weight: 300; color: #fff; }
+.quemsomos-home-container .quemsomos-box { width: 30%; padding: 0 1%; margin: 0 1%; }
+.quemsomos-home-container .quemsomos-box .qs-btn .btn-ese { margin: 0 auto; }
+.quemsomos-home-container .quemsomos-box .qs-btn .btn-ese span { font-size: 15px; }
+
+.ativar { opacity: 1; transition: 1s all; }
+
+.aumentar-qs { transition: 1s all; width: 100% !important; margin: 0 !important; }
+
+/*===========================
+CURSOS
+=================*/
+#cursos { margin: -528px 0 0; transition: 1s all; background-size: 100%; }
+#cursos .cursos-home { height: 308px; }
+#cursos .cursos-home .container-ese { max-width: 500px; }
+#cursos .cursos-home .container-ese h3 { font-weight: 100; }
+#cursos .cursos-home .container-ese p { color: #fff; text-align: center; }
+#cursos .cursos-home .container-ese .btn-ese-default { padding: 0 30px; background-color: #127bdc !important; border: none; margin: 20px auto 0; width: 100px; }
+
+.btn-shadow-azul { -webkit-box-shadow: 1px 7px 15px -3px rgba(18, 123, 220, 0.73); box-shadow: 1px 7px 15px -3px rgba(18, 123, 220, 0.73); }
+
+/*==========================
+A ESE
+=============*/
+#a-ese { background: #fbfcfc; padding: 2% 0; }
+#a-ese .container-ese .col { width: 50%; float: left; }
+#a-ese .container-ese .col .separador-azul { width: 8%; height: 4px; }
+#a-ese .container-ese .col h3 { font-weight: font-weight 700; font-size: 40px; color: #127bdc; margin: 20px 0; }
+#a-ese .container-ese .col p { margin: 0 0 20px 0; }
+
+#conheca-a-ese .title-conheca-a-ese { background: #fbfcfc; padding: 1% 0 0; }
+#conheca-a-ese .title-conheca-a-ese h2 { color: #4b4f58; }
+#conheca-a-ese .main-tab { margin: 2% 0 0; }
+#conheca-a-ese .main-tab .tab { color: #4b4f58; padding: 2% 0; cursor: pointer; }
+#conheca-a-ese .main-tab .tab:hover { border-bottom: 4px solid #127bdc; }
+#conheca-a-ese .main-tab-content { padding: 5% 0; color: #1e1e1e; }
+#conheca-a-ese .main-tab-content .tab-index-2, #conheca-a-ese .main-tab-content .tab-index-3, #conheca-a-ese .main-tab-content .tab-index-4 { display: none; }
+#conheca-a-ese .main-tab-content .tab-1 { border-bottom: 4px solid #127bdc; }
+#conheca-a-ese .main-tab-content .tab-index-2 .centralizar img { width: 100%; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar { text-align: left; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col { width: 48%; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col .separador-azul { height: 4px; width: 10%; margin-right: 90%; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col h3 { line-height: 100px; color: #127bdc; font-weight: 600; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col-100 h3 { line-height: 100px; color: #127bdc; font-weight: 600; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col-100 .separador-azul { height: 4px; width: 5%; margin-right: 95%; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col-mvp { width: 50%; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col-mvp .content-mvp { width: 93%; border: 1px solid #e2e4e7; margin: 1% 1%; padding: 2%; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col-mvp .content-mvp .center { margin: 1% 26%; width: 43% !important; max-width: 100%; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .col-mvp .content-mvp .space-entre-colunas { margin-right: 5%; margin-left: 5%; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .content-mvp { width: 93%; border: 1px solid #e2e4e7; margin: 1% 1%; padding: 2%; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .content-mvp .center { margin: 1% 26%; width: 43% !important; border: 1px solid #e2e4e7; max-width: 100%; padding: 2%; }
+#conheca-a-ese .main-tab-content .tab-index-3 .centralizar .content-mvp .space-entre-colunas { margin-right: 5%; margin-left: 5%; }
+
+#conheca-a-ese > div.container-full-ese > div > div > div.tab-index.tab-index-3 > div:nth-child(2) > div.content-mvp { border: none; }
+
+#competencias-empreendedoras .title-comp { margin: 2% 0; }
+#competencias-empreendedoras .title-comp h2 { font-weight: 600; font-size: 68px; color: #4b4f58 !important; text-align: center; }
+#competencias-empreendedoras .title-comp p { color: #a3a6ab; margin: 2% 0; font-size: 23px; line-height: 30px; }
+#competencias-empreendedoras .conteudo-comp-left { width: 70%; }
+#competencias-empreendedoras .conteudo-comp-right { width: 27%; float: right; position: relative; }
+#competencias-empreendedoras .conteudo-comp-right h3 { color: #757981; font-weight: 600; font-size: 20px; }
+#competencias-empreendedoras .conteudo-comp-right h4 { color: #9b9fa5; margin-top: 10px; }
+#competencias-empreendedoras .conteudo-comp-right p { color: #9b9fa5; }
+#competencias-empreendedoras .separador-treecolor { float: left; position: relative; background: url(../images/separador-treecolor.png) no-repeat; background-size: 100%; width: 100%; height: 20px; margin-bottom: 15px; }
+
+#pesquisas-publicadas .container-full-ese { margin-bottom: 5%; }
+#pesquisas-publicadas .container-full-ese .col-pesquisa-left { width: 40%; }
+#pesquisas-publicadas .container-full-ese .col-pesquisa-left h2 { color: #4b4f58; font-weight: 300; line-height: 53px; }
+#pesquisas-publicadas .container-full-ese .col-pesquisa-left p { color: #a3a6ab; font-weight: 500; font-size: 20px; }
+#pesquisas-publicadas .container-full-ese .col-pesquisa-right { width: 50%; }
+#pesquisas-publicadas .container-full-ese .col-pesquisa-right .img-pesq { float: right; width: 709px; height: 483px; z-index: 999; margin-right: -223px; }
+#pesquisas-publicadas .container-ese .col-pesquisa-main h3 { color: #4b4f58; margin-bottom: 30px; }
+
+#cpa .col-cpa-left { width: 50%; }
+#cpa .img-cpa { float: left; width: 709px; height: 483px; z-index: 999; margin-left: -223px; }
+#cpa .col-cpa-right { width: 40%; float: right; position: relative; padding: 59px 0 30px; }
+#cpa .col-cpa-right h2, #cpa .col-cpa-right h3 { color: #4b4f58; }
+#cpa .col-cpa-right h2 span, #cpa .col-cpa-right h3 span { color: #b3b6ba; font-weight: font-weight 700; }
+#cpa .col-cpa-right h4 { color: #4b4f58; font-size: 19px; }
+#cpa .col-cpa-right p { color: #bec0c4; }
+#cpa .col-cpa-right p strong { color: #4b4f58; }
+#cpa .btn-resultado { margin: 2% 0; }
+#cpa .btn-rel { width: 190px; height: 54px; border: 1px solid #4b4f58; border-radius: 10px; margin: 10px 0; cursor: pointer; }
+#cpa .btn-rel a { color: #4b4f58; padding: 9% 31%; }
+
+/*SEÇÕES*/
+#a-ese-secao, #conheca-a-ese-secao, #comp-empreendedoras-secao, #pesquisa-publicada-secao, #cpa-secao { height: 20px; }
+
+/*===========CAROUSEL POST==========*/
+#carousel-post { background: #f8f9fa; padding: 5% 0; transition: 1s all; }
+#carousel-post .title-carousel { margin-bottom: 20px; }
+#carousel-post .title-carousel h2 { font-weight: 600; color: #1e1e1e; font-size: 52px; line-height: 6px; margin-bottom: 36px; }
+#carousel-post .title-carousel h3 { font-weight: 300; color: #7f7f7f; margin-top: 25px; }
+#carousel-post .owl-carousel .box-carousel-post { width: 240px; height: 455px; float: left; position: relative; margin: 5px 7px 0; background: #fff; }
+#carousel-post .owl-carousel .box-carousel-post:hover { transition: 1s all; margin-top: -2px !important; }
+#carousel-post .owl-carousel .box-carousel-post .post_thumb { width: 100%; height: 215px; }
+#carousel-post .owl-carousel .box-carousel-post .post_thumb img { width: 100%; height: auto; }
+#carousel-post .owl-carousel .box-carousel-post .title-carousel-post { width: 84%; padding: 10px 8% 0; }
+#carousel-post .owl-carousel .box-carousel-post .title-carousel-post h2 { color: #666565; line-height: 20px; }
+#carousel-post .owl-carousel .box-carousel-post .title-carousel-post h2 a { color: #666565; font-weight: bolder; font-size: 18px !important; }
+#carousel-post .owl-carousel .box-carousel-post .title-carousel-post h2 a:hover { text-decoration: none; }
+#carousel-post .owl-carousel .box-carousel-post .conteudo-post { width: 84%; padding: 5% 8% 0; }
+#carousel-post .owl-carousel .box-carousel-post .conteudo-post p { color: #aeaeae; font-weight: 300; margin: 5px 0 0; }
+#carousel-post .owl-carousel .box-carousel-post .conteudo-post .btn-leia-mais { background: #2988df; width: 80px; text-align: center; padding: 5px 0; margin-top: 15px; }
+#carousel-post .owl-carousel .box-carousel-post .conteudo-post .btn-leia-mais a { color: #fff; }
+#carousel-post .owl-carousel .owl-nav { width: 1100px; padding: 20px 0 0 0; order: 2; position: absolute; z-index: 999999; margin-top: 203px; margin-left: -59px; }
+#carousel-post .owl-carousel .owl-nav button.owl-prev { background: url("../images/bg/btn-prev.png"); }
+#carousel-post .owl-carousel .owl-nav button.owl-next { background: url("../images/bg/btn-next.png"); }
+#carousel-post .owl-carousel .owl-dots { width: 100%; justify-content: center; order: 1; margin-top: 64px; }
+#carousel-post .owl-carousel .owl-dots button.owl-dot { border: 1px solid #7f7f7f; width: 10px; height: 10px; margin: 0 2px; border-radius: 25px; }
+#carousel-post .owl-carousel .owl-dots button.owl-dot .active { background: #7f7f7f; width: 10px; height: 10px; border-radius: 25px; }
+
+.page-id-127 #carousel-post { background: #ececec; padding: 5% 0; transition: 1s all; }
+
+/*==================
+CAROUSEL ACONTECE
+=================*/
+.carousel-post-acontece { width: 240px; height: 412px; margin: 10px 7px 0; background: #fff; }
+.carousel-post-acontece .post_thumb { width: 100%; height: 215px; -webkit-box-shadow: -1px 7px 10px 1px rgba(0, 0, 0, 0.07); box-shadow: -1px 7px 10px 1px rgba(0, 0, 0, 0.07); }
+.carousel-post-acontece .post_thumb img { width: 100%; height: auto; }
+.carousel-post-acontece .date-post { width: 51px; height: 51px; background: #313131; color: #fff; margin-top: -32px; margin-left: 22px; position: relative; -webkit-box-shadow: 0px 2px 8px 4px rgba(0, 0, 0, 0.16); box-shadow: 0px 2px 8px 4px rgba(0, 0, 0, 0.16); }
+.carousel-post-acontece .title-carousel-post { width: 84%; padding: 5% 8% 0; }
+.carousel-post-acontece .title-carousel-post .col { align-items: center; }
+.carousel-post-acontece .title-carousel-post .col h2 { color: #666565; line-height: 20px; }
+.carousel-post-acontece .title-carousel-post .col h2 a { color: #666565; font-weight: bolder; font-size: 16px !important; }
+.carousel-post-acontece .title-carousel-post .col h2 a:hover { text-decoration: none; }
+.carousel-post-acontece .title-carousel-post .col i { color: #0077f2; font-size: 20px; margin-right: 5px; }
+.carousel-post-acontece .conteudo-post { width: 90%; padding: 1% 5%; }
+.carousel-post-acontece .conteudo-post p { color: #8c8c8c; font-size: 14px; }
+
+.owl-carousel-acontece .owl-nav, .owl-carousel-ecossistema .owl-nav { width: 100%; justify-content: space-between; margin: 38px 0 0; }
+.owl-carousel-acontece .owl-nav button.owl-prev span, .owl-carousel-ecossistema .owl-nav button.owl-prev span { background: url("../images/bg/btn-prev-events.png") no-repeat; width: 190px; height: 28px; font-size: 0 !important; color: transparent; }
+.owl-carousel-acontece .owl-nav button.owl-next span, .owl-carousel-ecossistema .owl-nav button.owl-next span { background: url("../images/bg/btn-next-events.png") no-repeat; width: 190px; height: 28px; float: right; position: relative; font-size: 0 !important; color: transparent; }
+
+/*==========================
+ECOSSISTEMA
+============*/
+.carousel-post-ecossistema { width: 300px; padding: 1%; }
+.carousel-post-ecossistema .conteudo-post { height: 120px; flex-direction: row; }
+.carousel-post-ecossistema .conteudo-post .conteudo-data-post { width: 68px; height: 68px; justify-content: center; border-top: 8px solid #0078f2; text-align: center; margin-right: 16px; }
+.carousel-post-ecossistema .conteudo-post .conteudo-data-post span { color: #0078f2; font-size: 20px; font-weight: 800; }
+.carousel-post-ecossistema .conteudo-post p { margin-top: 5px; font-size: 14px; font-weight: 300; line-height: 16px; color: #252525; }
+.carousel-post-ecossistema .conteudo-post h2 a { font-size: 22px; color: #252525; line-height: 20px; font-weight: 600; }
+.carousel-post-ecossistema .conteudo-post:hover h2 a { color: #9a9a9a !important; }
+
+.owl-carousel-estrutura .carousel-post-estrutura { background: #fff; }
+.owl-carousel-estrutura .carousel-post-estrutura .post_thumb { width: 100%; height: auto; }
+.owl-carousel-estrutura .carousel-post-estrutura .post_thumb img { width: 100%; height: auto; }
+
+.owl-carousel-gestao-executiva .carousel-box-left { width: 20%; justify-content: center; }
+.owl-carousel-gestao-executiva .carousel-box-left .post_thumb { border-radius: 50%; border: 4px solid #ececec; height: 150px; width: 150px !important; padding: 2%; }
+.owl-carousel-gestao-executiva .carousel-box-right { width: 70%; }
+.owl-carousel-gestao-executiva .carousel-box-right .carousel-box-title h3 { color: #127bdc; font-weight: 600; }
+.owl-carousel-gestao-executiva .carousel-box-right .carousel-box-title p { color: #9698a1; }
+.owl-carousel-gestao-executiva .carousel-box-right .carousel-box-content { margin: 2% 0; }
+.owl-carousel-gestao-executiva .carousel-box-right .carousel-box-content p { color: #666565; font-weight: 300; margin: 5px 0; }
+.owl-carousel-gestao-executiva .carousel-box-right .carousel-box-btn { height: 40px; width: 40%; border-radius: 20px; border: 2px solid #127bdc; }
+.owl-carousel-gestao-executiva .carousel-box-right .carousel-box-btn a { padding: 0 30px; color: #127bdc; text-transform: uppercase; }
+
+.owl-carousel-graduacao .curriculo-slider { width: 80%; margin: 0 10%; height: 650px; }
+.owl-carousel-graduacao .curriculo-slider .item { display: flex; justify-content: space-between; }
+.owl-carousel-graduacao .curriculo-slider .curriculo-slider-left { width: 200px; height: 100%; }
+.owl-carousel-graduacao .curriculo-slider .curriculo-slider-left .post_thumb { border-radius: 50%; width: 150px; height: 150px; padding: 5px; border: 4px solid #ccc; }
+.owl-carousel-graduacao .curriculo-slider .curriculo-slider-right { width: 75%; justify-content: center; float: right; }
+.owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .title-curriculo-slider { padding-left: 160px; width: 520px; }
+.owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .title-curriculo-slider h3 { color: #2988df; }
+.owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider { width: 680px; margin: 2% 0; }
+.owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider .icone { width: 80px; margin-right: 30px; align-items: center; }
+.owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider .icone i { color: #127bdc; font-size: 60px; }
+.owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider .content-curriculo { color: #000; width: 470px; }
+.owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider .content-curriculo p, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider .content-curriculo p span, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider .content-curriculo ul li, .owl-carousel-graduacao .curriculo-slider .curriculo-slider-right .conteudo-curriculo-slider .content-curriculo ul li span { color: #787878; font-size: 15px; }
+.owl-carousel-graduacao .owl-nav.disabled { display: block; }
+.owl-carousel-graduacao .owl-nav { width: 100%; margin-top: 25%; z-index: 99999; position: absolute; }
+.owl-carousel-graduacao .owl-nav button.owl-prev { background: url("../images/bg/btn-prev.png") !important; font-size: 0 !important; }
+.owl-carousel-graduacao .owl-nav button.owl-next { background: url("../images/bg/btn-next.png") !important; font-size: 0 !important; }
+
+.info-post { width: 100%; float: left; position: relative; padding: 5px 0; }
+
+.info-post p { font-size: 17px !important; }
+
+#conheca-a-ese .owl-carousel-estrutura .owl-dots { justify-content: center; order: 1; margin-top: 64px; }
+#conheca-a-ese .owl-carousel-estrutura .owl-dots button.owl-dot { border: 1px solid #7f7f7f; width: 10px; height: 10px; margin: 0 2px; border-radius: 25px; }
+#conheca-a-ese .owl-carousel-estrutura .owl-dots button.owl-dot.active { background: #7f7f7f; width: 10px; height: 10px; border-radius: 25px; }
+#conheca-a-ese .owl-carousel-estrutura .owl-nav { justify-content: center; padding: 20px 0 0 0; order: 2; }
+#conheca-a-ese .owl-carousel-estrutura .owl-nav button { border: none; padding: 0 !important; width: 35px; height: 34px; margin: 0 5px; font-size: 0; }
+#conheca-a-ese .owl-carousel-estrutura .owl-nav button.owl-prev { background: url("../images/bg/btn-prev.png"); }
+#conheca-a-ese .owl-carousel-estrutura .owl-nav button.owl-next { background: url("../images/bg/btn-next.png"); }
+
+.page-id-127 #carousel-post > div > div.title-carousel > h2 { font-size: 26px !important; font-weight: 400 !important; line-height: 26px; }
+
+.page-id-127 #carousel-post > div > div.title-carousel > h3 { margin-top: 0px !important; font-size: 24px; }
+
+#acontece-ecossistema > div > div > div.owl-carousel.owl-carousel-ecosistema.owl-loaded.owl-drag > div.owl-stage-outer > div > div > div > div > div.conteudo-post { flex-direction: row; }
+
+/*========================
+GRADUAÇÃO
+=============*/
+#ocurso { background: #ececec; padding: 69px 0; }
+#ocurso .container-ese .col { width: 46%; padding: 2%; }
+#ocurso .container-ese .col h2 { color: #373636; line-height: 135px; }
+#ocurso .container-ese .col h3 { color: #373636; line-height: 135px; font-weight: 100; }
+#ocurso .container-ese .col p { font-size: 14px; color: #b1b1b1; margin: 10px 0; }
+#ocurso .detalhe-curso { border-top: 1px solid #d8d8d8; margin: 64px 0 0; padding-top: 64px; }
+#ocurso .detalhe-curso .container-ese h3 { color: #373636; }
+#ocurso .detalhe-curso .container-ese .content-container-ese { margin-top: 64px; }
+#ocurso .detalhe-curso .container-ese .content-container-ese .col { align-items: center; width: auto; }
+#ocurso .detalhe-curso .container-ese .content-container-ese .col i { color: #2786de; font-size: 50px; line-height: 100px; }
+
+#vestibular-curso { height: 458px; padding: 134px 0 88px; }
+#vestibular-curso .container-ese .col { width: 45%; max-width: 90%; color: #1e1e1e; }
+#vestibular-curso .container-ese .col h3 { font-weight: 300; margin-top: 7px; }
+#vestibular-curso .container-ese .col .form-vestibular-curso { width: 337px; }
+#vestibular-curso .container-ese .col .form-vestibular-curso input[type=text], #vestibular-curso .container-ese .col .form-vestibular-curso input[type=email] { width: 99%; border: 1px solid #b7b7b7; border-radius: 5px; height: 40px; align-items: center; padding-left: 18px; margin: 7px 0; }
+#vestibular-curso .container-ese .col .form-vestibular-curso textarea { width: 99%; border: 1px solid #b7b7b7; border-radius: 5px; padding-left: 18px; padding-top: 18px; margin: 7px 0; }
+#vestibular-curso .container-ese .col .form-vestibular-curso input[type=submit] { width: 120px; border: 1px solid #2574bc; background: transparent; color: #2574bc; text-transform: uppercase; border-radius: 25px; height: 40px; margin: 7px auto; font-weight: font-weight 700; cursor: pointer; transition: 1s all; }
+#vestibular-curso .container-ese .col .form-vestibular-curso input[type=submit]:hover { background: #2574bc; color: #fff; transition: 1s all; }
+
+#matriz-curso { background: url("../images/banner-matriz-curricular.png") center center no-repeat; background-size: cover; height: 764px; padding: 3% 0; }
+#matriz-curso .container-ese .col { margin: 82px 0; }
+#matriz-curso .container-ese .col .container-matriz { margin: 5% 0; }
+#matriz-curso .container-ese .col .container-matriz .menu-matriz { width: 25%; border: 1px solid #fff; }
+#matriz-curso .container-ese .col .container-matriz .menu-matriz .tab-matriz { padding: 6.01% 0; cursor: pointer; }
+#matriz-curso .container-ese .col .container-matriz .menu-matriz .tab-matriz:hover { border-top: 1px solid #64a1da; border-bottom: 1px solid #64a1da; }
+#matriz-curso .container-ese .col .container-matriz .menu-matriz .tab-matriz .active { display: block; transition: 1s all; }
+#matriz-curso .container-ese .col .container-matriz .menu-matriz .tab-matriz .conteudo-menu-matriz { float: left; position: relative; }
+#matriz-curso .container-ese .col .container-matriz .content-matriz-curricular { width: 74%; border: 1px solid #fff; }
+#matriz-curso .container-ese .col .container-matriz .content-matriz-curricular .box-content-matriz-curricular { width: 31.055%; padding: 0 1%; border: 1px solid #64a1da; height: 76px; font-weight: 300; }
+#matriz-curso .container-ese .col .container-matriz .content-matriz2, #matriz-curso .container-ese .col .container-matriz .content-matriz3, #matriz-curso .container-ese .col .container-matriz .content-matriz4, #matriz-curso .container-ese .col .container-matriz .content-matriz5, #matriz-curso .container-ese .col .container-matriz .content-matriz6, #matriz-curso .container-ese .col .container-matriz .content-matriz7, #matriz-curso .container-ese .col .container-matriz .content-matriz8 { display: none; }
+#matriz-curso .container-ese .col .container-btn-matriz-curricular .btn-matriz-curricular { width: 20%; background: #fff; border-radius: 25px; height: 48px; }
+#matriz-curso .container-ese .col .container-btn-matriz-curricular .btn-matriz-curricular a { color: #519ee5; }
+
+#professores-curso { background: url("../images/bg/bg-professores-curso.png") repeat-x; background-size: 100%; padding: 2% 0; }
+#professores-curso .container-ese .title-professores { margin: 37px 0; }
+#professores-curso .container-ese h2 { color: #373636; }
+#professores-curso .container-ese-professores { max-width: 90%; width: 1170px; background-color: #fff; margin: 0 auto; padding: 5% 0; }
+
+#vestibular-datas { background-size: cover; }
+#vestibular-datas .col-vestibular-100 { justify-content: space-around; margin: 260px 0 0 0; align-items: center; }
+#vestibular-datas .col-vestibular-100 .left-col-vestibular { width: 50%; }
+#vestibular-datas .col-vestibular-100 .box-vestibular-aberto { margin: 150px 0 0 0; }
+#vestibular-datas .col-vestibular-100 .box-vestibular-aberto .col-vestibular-100 .btn-vestibular-aberto { width: 25%; margin-right: 2%; border-radius: 25px; border: 1px solid #127bdc; height: 46px; text-transform: uppercase; }
+#vestibular-datas .col-vestibular-100 .box-vestibular-aberto .col-vestibular-100 .btn-vestibular-aberto .acesse-edital { background: transparent; }
+#vestibular-datas .col-vestibular-100 .box-vestibular-aberto .col-vestibular-100 .btn-vestibular-aberto .acesse-edital a { padding: 12px 42px; color: #127bdc; }
+#vestibular-datas .col-vestibular-100 .box-vestibular-aberto .col-vestibular-100 .btn-vestibular-aberto .inscreva-se-vestibular { background: #127bdc !important; }
+#vestibular-datas .col-vestibular-100 .box-vestibular-aberto .col-vestibular-100 .btn-vestibular-aberto .inscreva-se-vestibular a { padding: 12px 20px; color: #fff; }
+#vestibular-datas .col-vestibular-100 .right-col-vestibular { width: 50%; float: right; position: relative; }
+#vestibular-datas .col-vestibular-100 .right-col-vestibular h4 { font-weight: 300; font-size: 26px; }
+#vestibular-datas .col-vestibular-100 .right-col-vestibular h4 span { color: #127bdc; font-weight: 400; font-size: 26px; }
+#vestibular-datas .col-vestibular-100 .right-col-vestibular p { color: #7f8c99; }
+#vestibular-datas .col-vestibular-100 .right-col-vestibular p span { color: #127bdc; font-size: 13px; }
+#vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form { width: 342px; background: url("../images/bg/bg-form-vestibular.png"); padding: 64px 47px; }
+#vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form h3 { font-weight: 300; font-size: 16px; }
+#vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form input[type=text], #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form input[type=email], #vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form textarea { padding: 2% 4%; background: transparent; color: #fff; margin: 13px 0; border: 1px solid #fff; border-radius: 5px; }
+#vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form input[type=submit] { width: 120px; border: 1px solid #2574bc; background: transparent; color: #2574bc; text-transform: uppercase; border-radius: 25px; height: 40px; margin: 13px auto 0; font-weight: font-weight 700; cursor: pointer; transition: 1s all; }
+#vestibular-datas .col-vestibular-100 .right-col-vestibular .box-form input[type=submit]:hover { background: #2574bc; color: #fff; transition: 1s all; }
+#vestibular-datas .container-full-ese .container-ese .col-vestibular { padding: 2% 0; }
+#vestibular-datas .container-full-ese .container-ese .col-vestibular h2 { font-weight: 600 !important; line-height: 56px !important; }
+#vestibular-datas .container-full-ese .container-ese .col-vestibular p { margin: 28px 0; color: #fff; font-size: 15px; }
+#vestibular-datas .container-full-ese .container-ese .col-vestibular ul { list-style: none; }
+#vestibular-datas .container-full-ese .container-ese .col-vestibular ul li { padding: 1% 2%; font-size: 15px; }
+#vestibular-datas .container-full-ese .container-ese .col-vestibular ul li span { color: #0c467b; font-weight: bolder; }
+#vestibular-datas .container-full-ese .container-ese .col-vestibular ul li:before { content: '-'; color: #fff; }
+
+#segunda-graduacao { background-color: #061727; height: auto; padding: 68px 0 0; }
+#segunda-graduacao .container-full-ese .container-ese .col-vestibular h2 { line-height: 46px; }
+#segunda-graduacao .container-full-ese .container-ese .col-vestibular p { color: #fff; }
+
+#bolsas-curso { background-color: #061727; height: auto; padding: 68px 0; }
+#bolsas-curso .container-full-ese .container-ese :nth-child(1) h2 { margin-bottom: 28px; }
+#bolsas-curso .container-full-ese .container-ese :nth-child(2) ul p { color: #fff; }
+
+/*========================
+MBA
+============*/
+#ocurso-mba { background: #284a71 !important; padding: 69px 0; }
+#ocurso-mba .container-ese .col { width: 46%; padding: 2%; }
+#ocurso-mba .container-ese .col h2, #ocurso-mba .container-ese .col h3 { color: #fff; line-height: 135px; }
+#ocurso-mba .container-ese .col h3 { font-weight: 100; }
+#ocurso-mba .container-ese .col p { color: #fff; }
+
+#informativo-mba { background: #f0f0f0; }
+#informativo-mba .informativo { background: #284a71 !important; height: 63px; width: 158px; text-transform: uppercase; }
+#informativo-mba .informativo p { color: #fff; font-size: 14px; line-height: 16px; letter-spacing: 2px; }
+
+#detalhes-mba { padding-bottom: 64px; }
+#detalhes-mba .detalhe-curso-mba { border-top: 1px solid #d8d8d8; padding: 64px 0; }
+#detalhes-mba .detalhe-curso-mba h3 { color: #373636; }
+#detalhes-mba .detalhe-curso-mba .content-container-ese { justify-content: space-around; margin-top: 64px; }
+#detalhes-mba .detalhe-curso-mba .content-container-ese .col { text-align: center; }
+#detalhes-mba .detalhe-curso-mba .content-container-ese .col i { color: #c4c4c4; font-size: 50px; line-height: 100px; text-align: center; }
+#detalhes-mba .detalhe-curso-mba .content-container-ese .btn-increva-se-mba { border-radius: 30px; height: 40px; color: #fff; margin: 0 auto; padding: 0 30px; cursor: pointer; width: 110px; background: #127bdc; }
+#detalhes-mba .detalhe-curso-mba .content-container-ese .btn-increva-se-mba a { color: #fff; }
+
+#vestibular-curso-mba { background: #f0f0f0; padding: 91px 0; }
+#vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba h3 { color: #000; }
+#vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba input[type=email], #vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba input[type=text] { width: 30%; margin: 1% 1.5%; padding: 1% 1%; background: transparent; color: #c8c9c9; border: 1px solid #c8c9c9; border-radius: 5px; }
+#vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba textarea { width: 96%; margin: 1% 1.5%; padding: 1% 1%; border: 1px solid #fff; border-radius: 5px; background: transparent; color: #c8c9c9; border: 1px solid #c8c9c9; }
+#vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba input[type=submit] { width: 25%; border-radius: 30px; border: 1px solid #2574bc; background: transparent; color: #2574bc; text-transform: uppercase; border-radius: 25px; height: 40px; padding: 0 30px; margin: 0 37.5%; font-weight: bolder; cursor: pointer; transition: 1s all; }
+#vestibular-curso-mba .container-ese .col .form-vestibular-curso-mba input[type=submit]:hover { background: #2574bc; color: #fff; transition: 1s all; }
+
+#inscricao-mba { max-height: 3466px; height: 3466px; width: 100%; background-size: cover; float: left; }
+#inscricao-mba .container-full-ese { @config-base; }
+#inscricao-mba .container-full-ese .container-ese { padding: 144px 0; }
+#inscricao-mba .container-full-ese .container-ese h2 { font-size: 40px !important; }
+#inscricao-mba .container-full-ese .container-ese h2 span { font-size: 30px !important; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form { width: 70%; background: url("../images/bg/bg-form-vestibular.png"); padding: 60px 40px; margin: 90px 15%; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form h3 { color: #2988df !important; font-size: 20px; text-transform: uppercase; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form label { color: #fff; margin: 12px 0; text-align: left; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal input[type=email], #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal input[type=tel], #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal input[type=text] { padding: 12px 1%; border-top: none; border-right: none; border-left: none; border-bottom: 1px solid #9fa4ab; background: transparent; color: #fff; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal input[type=email] :focus, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal input[type=tel] :focus, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal input[type=text] :focus { border-bottom: 1px solid #1b4a77; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal select { border-radius: 5px; width: 98%; padding: 12px 1%; border: 1px solid #fff; background: transparent; color: #fff; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-pessoal select option { color: #1e1e1e; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form { margin: 2% 0; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form select, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form input[type=text] { border-radius: 5px; width: 98%; padding: 12px 1%; border: 1px solid #fff; background: transparent; color: #fff; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form select option { color: #1e1e1e; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form textarea, #inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form #objetivo-profissional1 { width: 98%; border-radius: 5px; background: transparent; padding: 12px 1%; border: 1px solid #fff; color: #fff; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form input[type=file] { display: none; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form input[type=file]:focus { border: #127bdc; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form .file-input { border-radius: 5px; background: transparent; padding: 12px 1%; border: 1px solid #fff; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form input[type=url] { padding: 12px 1%; border-top: none; border-right: none; border-left: none; border-bottom: 1px solid #9fa4ab; background: transparent; color: #fff; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form input[type=url]:focus { border: #127bdc; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form input[type=submit] { width: 170px; margin: 25px auto; padding: 2% 30px; background: #127bdc; color: #fff; text-align: center; border-radius: 25px; border: none; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form input[type=submit]:focus { border: #127bdc; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-center .box-form .info-geral-form p span select option:focus { border: #127bdc; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-mba p { color: #fff !important; }
+#inscricao-mba .container-full-ese .container-ese .col-vestibular-mba ul p { color: #fff !important; }
+
+#inscricao-mba > div.container-ese > div:nth-child(2) > ul > p { color: #fff !important; }
+
+#check-pos1 > span.wpcf7-list-item { width: 100%; float: left; position: relative; }
+
+#wpcf7-f121-o2 > form > div:nth-child(7) > p:nth-child(6) { text-align: center; }
+
+#check-pos1 > span.wpcf7-list-item:focus, :focus { border: #127bdc; }
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing { border: none !important; width: 100% !important; float: left !important; position: relative !important; }
+
+span.wpcf7-not-valid-tip { color: #f00 !important; font-size: 1em !important; font-weight: normal !important; display: block !important; width: 100% !important; float: left !important; position: relative !important; }
+
+/*==================
+ACONTECE NA ESE
+=================*/
+#acontece-na-ese { background: #ececec; padding: 120px 0 30px; }
+#acontece-na-ese .container-carousel-acontece { width: 980px; max-width: 100%; margin: 0 auto; }
+#acontece-na-ese .container-carousel-acontece h2 { color: #363636; line-height: 20px; }
+#acontece-na-ese .container-carousel-acontece h3 { margin: 3% 0 1%; color: #363636; font-weight: 300; }
+
+#acontece-ecossistema { background: #f6f6f6; padding: 2% 0; }
+#acontece-ecossistema h3 { margin: 2% 0; color: #363636; }
+
+/*==================
+
+CONTATO============*/
+#contato { margin-top: -463px; margin-bottom: 135px; }
+#contato .container-ese { background: #fff; -webkit-box-shadow: 1px 1px 30px -3px rgba(0, 0, 0, 0.4); box-shadow: 1px 1px 30px -3px rgba(0, 0, 0, 0.4); width: 900px; overflow: hidden; max-width: 90%; }
+#contato .container-ese h2 { margin-bottom: 15%; }
+#contato .container-ese h3 { color: #1e1e1e; }
+#contato .container-ese .col { width: 50%; }
+#contato .container-ese .col:first-child { width: 50%; justify-content: center; align-items: center; }
+#contato .container-ese .col:first-child p { margin: 5% 0; font-weight: 300; font-size: 14px; }
+#contato .container-ese .col:last-child p { margin: 0; }
+#contato .container-ese .col h2 { color: #1e1e1e; }
+#contato .container-ese .col .cont-conteudo { width: 80%; padding: 70px 0; }
+#contato .container-ese .col .form { margin-top: 70px; }
+#contato .container-ese .col .form textarea { height: 149px; }
+#contato .container-ese .col .form input[type=submit] { border: none; margin: 42px auto; border-radius: 25px; padding: 0 30px; height: 40px; background: #127bdc; color: #fff; text-transform: uppercase; cursor: pointer; }
+
+.page-template-page-contato { background: #ececec !important; }
+
+/*=======================
+ACORDEON
+================*/
+.container-acordeon { margin: 2% 0; }
+
+.acordeon { border-top: 2px solid #ebebeb; }
+.acordeon .title-acordeon { width: 98%; align-items: center; padding: 1%; }
+.acordeon .title-acordeon h2 { font-size: 20px; font-style: italic; font-weight: 300; color: #4b4f58; }
+.acordeon .title-acordeon h2 strong { font-size: 20px; font-style: normal; }
+.acordeon .conteudo-acordeon { width: 98%; padding: 1%; display: none; transition: 1s all; }
+.acordeon .conteudo-acordeon .btn-acordeon a { color: #127bdc; text-transform: uppercase; font-weight: 500; }
+.acordeon .conteudo-acordeon .btn-acordeon i { color: #127bdc; text-transform: uppercase; font-weight: 500; }
+.acordeon .active-acordeon { /*height: auto;*/ transition: 1s all; display: block; }
+
+.container-matriz-mobile { display: none; }
+
+.title-acordeon-matriz-mobile { width: 98%; align-items: center; padding: 1%; border: 1px solid #fff; margin: 1% 0 0; }
+.title-acordeon-matriz-mobile h2 { font-size: 20px; font-weight: 300; color: #fff; }
+.title-acordeon-matriz-mobile h2 strong { font-size: 20px; font-style: normal; }
+
+.conteudo-acordeon-matriz-mobile { width: 98%; padding: 1%; display: none; transition: 1s all; }
+.conteudo-acordeon-matriz-mobile .box-content-matriz-curricular { width: 48%; }
+.conteudo-acordeon-matriz-mobile p { color: #fff; }
+.conteudo-acordeon-matriz-mobile .btn-acordeon a, .conteudo-acordeon-matriz-mobile .btn-acordeon a i { color: #127bdc; text-transform: uppercase; font-weight: 500; }
+
+.active-acordeon { transition: 1s all; display: block; }
+
+#faq { margin: 0; padding: 5% 0; }
+
+/*=========================
+ESTILIZAÇÃO DO POST 
+======================*/
+.post_thumb iframe { width: 100%; height: 235px; }
+
+/*=================
+SINGLE-POST
+==========*/
+#single-post .container-ese .single-post-ese { width: 810px; margin: 0 auto; max-width: 90%; }
+#single-post .container-ese .single-post-ese article h2 { text-align: center; font-size: 26px; color: #373636; }
+#single-post .container-ese .single-post-ese article .post_thumb-single { height: auto !important; margin: 67px 0; }
+#single-post .container-ese .single-post-ese article .content-post-single { width: 90%; margin: 0 auto; }
+#single-post .container-ese .single-post-ese article .content-post-single p { margin: 17px 0; text-align: left; }
+
+.paginacao { width: 90%; margin: 60px auto; }
+.paginacao .pagina_anterior i, .paginacao .pagina_proximo i { color: #127bdc; }
+.paginacao .pagina_anterior a, .paginacao .pagina_proximo a { color: #373636; font-weight: bolder; }
+.paginacao .pagine_proximo i { padding-left: 6px; }
+
+/*=======================PAGE=========================*/
+#agradecimento { background: url("../images/bg/inscricao-concluida.png") center center no-repeat; height: 702px; background-size: 100% 100%; }
+#agradecimento .container-full-ese { height: 702px; }
+#agradecimento .container-full-ese h2, #agradecimento .container-full-ese h3, #agradecimento .container-full-ese p { color: #fff; }
+
+/*======================
+FOOTER
+==========*/
+#footer { background: #1e1e1e; bottom: 0; padding: 70px 0 60px; }
+#footer .container-ese { overflow: hidden; }
+#footer .container-ese .col-footer-logotipo { width: 196px; }
+#footer .container-ese .col-footer-menu1 { width: 588px; }
+#footer .container-ese .col-footer-menu1 .menu-footer1 nav ul { list-style: none; margin: 0; padding: 0; }
+#footer .container-ese .col-footer-menu1 .menu-footer1 nav ul li { width: 156px; padding: 0 20px; }
+#footer .container-ese .col-footer-menu1 .menu-footer1 nav ul li a { color: #b2b2b2; font-weight: 600; font-size: 15px; }
+#footer .container-ese .col-footer-menu2 { width: 784px; }
+#footer .container-ese .col-footer-menu2 .menu-footer2 nav ul { list-style: none; margin: 0; padding: 0; }
+#footer .container-ese .col-footer-menu2 .menu-footer2 nav ul li { width: 196px; }
+#footer .container-ese .col-footer-menu2 .menu-footer2 nav ul li:first-child { margin-right: 20px; }
+#footer .container-ese .col-footer-menu2 .menu-footer2 nav ul li:last-child { width: 100px; }
+#footer .container-ese .col-footer-menu2 .menu-footer2 nav ul li a { color: #b2b2b2; font-weight: 600; font-size: 15px; }
+#footer .container-ese .col-footer-menu2 .menu-footer2 nav ul li ul { transition: 1s all; }
+#footer .container-ese .col-footer-menu2 .menu-footer2 nav ul li ul ul.sub-menu { background: none; box-shadow: none; }
+#footer .container-ese .col-footer-menu2 .menu-footer2 nav ul li ul li { width: 154px; }
+#footer .container-ese .col-footer-menu2 .menu-footer2 nav ul li ul li:last-child { width: 154px; }
+#footer .container-ese .col-footer-menu2 .menu-footer2 nav ul li ul li a { font-weight: 300; font-size: 13px; }
+#footer .container-ese .menu-footer2-contato { width: 196px; float: right; }
+#footer .container-ese .menu-footer2-contato h4 { color: #b2b2b2; font-size: 15px; }
+#footer .container-ese .menu-footer2-contato span { font-size: 13px; color: #b2b2b2 !important; }
+#footer .container-ese .col-footer-redes { margin: 4% auto 0; }
+#footer .container-ese .col-footer-redes a { margin: 0 6px; }
+#footer .container-ese .col-footer-redes a i { color: #727272; font-size: 25px; }
+#footer .container-ese .col-copy { color: #727272; }
+#footer .container-ese .col-copy p { color: #727272 !important; }

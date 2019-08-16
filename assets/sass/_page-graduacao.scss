@@ -1,0 +1,501 @@
+/*========================
+GRADUAÇÃO
+=============*/
+#ocurso{
+	@extend	%config-base;
+	background: $cinza3;
+	padding: 69px 0;
+
+	.container-ese{
+		@extend %f-flex;
+		@extend %f-between;
+
+		.col{
+			width: 46%;
+			padding: 2%;
+
+			h2{
+				color:#373636;
+				line-height: 135px;
+			}
+
+			h3{
+				color: #373636;		
+				line-height: 135px;	
+				font-weight: 100;
+			}
+			p{	
+				font-size: 14px;	
+				color: #b1b1b1;    	
+				margin: 10px 0;
+			}
+		}
+	}
+
+
+
+	.detalhe-curso{	
+		border-top: 1px solid #d8d8d8;	
+		margin: 64px 0 0;	
+		padding-top: 64px;
+
+		
+		.container-ese{
+			@extend %f-columns;
+			h3{
+				color: #373636;
+			}
+			.content-container-ese{
+				@extend %config-base;
+				@extend %f-flex;
+				@extend %f-between;
+			    margin-top: 64px;
+
+			    .col{
+			    	@extend %config-base;
+			    	@extend %f-flex;
+			    	@extend %f-columns;
+			    	align-items: center;
+			    	width: auto;
+					i{	    
+						color: #2786de;    
+						font-size: 50px;    
+						line-height: 100px;
+					}
+			    }
+			}
+		} 
+	}
+}
+
+
+#vestibular-curso{	
+			    	@extend %config-base;
+			    	height: 458px;
+			    	padding: 134px 0 88px;
+
+			    	.container-ese{
+			    		@extend %f-flex;
+			    		@extend %f-between;
+			    		.col{
+			    			width: 45%;	
+			    			max-width: 90%;	
+			    			color: $preto;
+			    			@extend %f-flex;
+			    			@extend %f-columns;
+			    			@extend %f-align-center;
+
+			    			h3{	    
+			    				font-weight: 300;
+			    				margin-top: 7px;
+			    			}
+			    			.form-vestibular-curso{
+			    				@extend %config-base;	
+			    				width: 337px;
+
+			    				input[type=text],
+			    				input[type=email]{
+			    					@extend %config-base;
+			    					@extend %f-flex;
+			    					width: 99%;
+			    					border:1px solid #b7b7b7;	
+			    					border-radius: 5px;	
+			    					height: 40px;
+			    					align-items: center;	
+			    					padding-left: 18px;	
+			    					margin: 7px 0;
+
+			    					&:focus{
+			    					@extend %focus;
+			    					}
+			    				}
+
+			    				textarea{
+			    					@extend %config-base;
+			    					@extend %f-flex;
+			    					width: 99%;
+			    					border:1px solid #b7b7b7;	
+			    					border-radius: 5px;	
+			    					padding-left: 18px;	
+			    					padding-top: 18px;
+			    					margin: 7px 0;
+			    					&:focus{
+			    					@extend %focus;
+			    					}
+			    				}
+			    				input[type=submit]{	
+			    					@extend %config-base;
+			    					@extend %f-flex;
+			    					@extend %f-align-center;
+			    					width: 120px;	
+			    					border:1px solid #2574bc;	
+			    					background: transparent;	
+			    					color: #2574bc;	
+			    					text-transform: uppercase;	
+			    					border-radius: 25px;	
+			    					height: 40px;
+			    					margin: 7px auto;	
+			    					font-weight: $font-bold;
+			    					cursor: pointer;
+			    					transition: $transition;
+
+			    					&:hover{
+			    						background: #2574bc;	
+			    						color: $branco;	
+			    						transition: $transition;
+			    					}
+			    				} 
+
+			    			}
+			    		}
+			    	}
+			    }
+
+#matriz-curso{	
+	@extend %config-base;
+	background: url('../images/banner-matriz-curricular.png') center center no-repeat;	
+	background-size: cover;	
+	height: 764px;
+	padding: 3% 0;
+
+	.container-ese{
+		.col{
+			margin:82px 0;
+
+			.container-matriz{
+				@extend %config-base;
+				margin: 5% 0;
+
+
+				.menu-matriz{
+					@extend %config-base;
+					width: 25%;	
+					border:1px solid $branco; 
+						
+						.tab-matriz{
+						@extend %config-base;
+				    	@extend %f-flex;
+				    	@extend %f-align-center;	
+						padding: 6.01% 0;	
+						cursor: pointer;
+
+							&:hover{	
+								border-top: 1px solid #64a1da;	
+								border-bottom: 1px solid #64a1da;
+							}
+
+							.active{	
+								display: block;	
+								transition: 1s all;
+							}
+							.conteudo-menu-matriz{	
+								float: left;	
+								position: relative;	
+							}
+						}
+					}
+				
+		
+				
+						.content-matriz-curricular{	
+							@extend %config-base;
+							width: 74%;	
+							border:1px solid $branco;
+
+							.box-content-matriz-curricular{	
+								@extend %config-base;
+							   	@extend %f-flex;
+							   	@extend %f-align-center;
+								width: 31.055%;	
+								padding: 0 1%;
+								border:1px solid #64a1da;	
+								height: 76px;
+								font-weight: 300;
+							}
+
+						}
+					.content-matriz2,.content-matriz3,.content-matriz4,.content-matriz5,.content-matriz6,.content-matriz7,.content-matriz8{display: none;}
+
+			}
+
+			.container-btn-matriz-curricular{
+				@extend %config-base;
+
+					.btn-matriz-curricular{
+						@extend %config-base;
+						@extend %f-flex;
+						@extend %f-align-center;
+						width: 20%;
+						background: $branco;
+						border-radius: 25px;	
+						height: 48px;
+
+							a{
+								color: #519ee5;
+							}	
+					}
+
+			}
+		}
+	}
+}
+
+
+#professores-curso{	
+	@extend %config-base;
+	background: url('../images/bg/bg-professores-curso.png') repeat-x;	
+	background-size: 100%;	
+	padding: 2% 0;
+
+	.container-ese{
+		@extend %f-flex;
+		@extend %f-columns;
+			
+			.title-professores{
+				@extend %config-base;
+				margin: 37px 0;
+			}
+			h2{
+				color: #373636;
+			}
+	}
+
+	.container-ese-professores{	
+		max-width: 90%;	
+		width: 1170px;	
+		background-color: $branco;	
+		margin: 0 auto;	
+		padding: 5% 0;
+	}
+}
+
+
+#vestibular-datas{	
+	@extend %config-base;
+	background-size: cover;
+
+	.col-vestibular-100{
+		@extend %config-base;
+		@extend %f-flex;
+		justify-content: space-around;	
+		margin: 260px 0 0 0;	
+		align-items: center;
+
+		.left-col-vestibular{	
+			@extend %config-base;
+			@extend %f-flex;
+			@extend %f-center;
+			width: 50%;	
+		}
+		
+		.box-vestibular-aberto{
+			@extend %config-base;
+			margin: 150px 0 0 0;
+
+			.col-vestibular-100{
+				.btn-vestibular-aberto{	
+					@extend %f-flex;
+					@extend %f-align-center;
+					width: 25%;		
+					margin-right: 2%;	
+					border-radius: 25px;	
+					border:1px solid $azul;	
+					height: 46px;	
+					text-transform: uppercase;
+
+
+						.acesse-edital{	
+							background: transparent;
+
+								a{
+									padding: 12px 42px;	
+									color: $azul;
+								}
+						}
+
+
+						.inscreva-se-vestibular{
+							background:  $azul !important;
+
+								a{    
+									padding: 12px 20px;	
+									color: $branco;
+								}
+						}
+				}
+
+			}
+		}
+
+				.right-col-vestibular{	
+					width: 50%;	
+					float: right;	
+					position: relative;
+		
+					h4{	
+						font-weight: 300;
+						font-size: 26px;
+		
+						span{
+							color: $azul;
+							font-weight: 400;
+							font-size: 26px;
+						}
+					}
+					 p{	
+					 	color: #7f8c99;
+		
+					 	span{
+					 		color: $azul;
+					 		font-size: 13px;
+					 	}
+					 }
+					.box-form{
+						@extend %config-base;
+						@extend %f-flex;
+						@extend %f-columns;
+						@extend %f-align-center;
+						width: 342px;
+						background: url('../images/bg/bg-form-vestibular.png');
+						padding: 64px 47px;
+
+							h3{    
+								font-weight: 300;    
+								font-size: 16px;
+							}
+							input[type=text],
+							input[type=email],
+							textarea{
+								@extend %config-base;
+								padding: 2% 4%;    
+								background: transparent;    
+								color: $branco;    
+								margin:13px 0;    
+								border: 1px solid $branco;    
+								border-radius: 5px;
+
+								&:focus{
+								@extend %focus;
+								}
+							}
+
+							input[type=submit]{
+								@extend %config-base;
+								@extend %f-flex;
+								@extend %f-align-center;
+								width: 120px;
+								border:1px solid #2574bc;	
+								background: transparent;	
+								color: #2574bc;	
+								text-transform: uppercase;	
+								border-radius: 25px;	
+								height: 40px;		
+								margin: 13px auto 0;	
+								font-weight: $font-bold;	
+								cursor: pointer;	
+								transition: $transition;
+
+								&:hover{	
+									background: #2574bc;	
+									color: $branco;	
+									transition: $transition;
+								}
+							}
+
+
+
+					}
+
+
+
+
+				}
+	}
+
+	.container-full-ese{
+		.container-ese{
+				.col-vestibular{
+					padding: 2% 0;
+					h2{
+						font-weight: 600 !important;    
+						line-height: 56px !important;
+					}
+					p{	
+						margin:28px 0;	
+						color: $branco;	
+						font-size: 15px;
+					}
+
+					ul{	
+						list-style: none;
+
+						li{	
+							padding: 1% 2%;	
+							font-size: 15px; 
+
+							 span{	
+							 	color: #0c467b;	
+							 	font-weight: bolder; 
+							 }
+
+							&:before {  
+								content: '-';  
+								color: #fff /* cor da bolinha */ 
+							}
+						}
+					}
+
+
+
+				}
+		}
+	}
+}
+
+
+#segunda-graduacao{	
+	@extend %config-base;
+	background-color: #061727;	
+	height: auto;	
+	padding: 68px 0 0;
+
+	.container-full-ese{
+
+		.container-ese{
+			.col-vestibular{
+				h2{
+					line-height: 46px;
+				}
+				p{
+					color: $branco;
+				}
+			}
+		}
+	}
+}
+#bolsas-curso{	
+	@extend %config-base;
+	background-color: #061727;	
+	height: auto;	
+	padding: 68px 0;
+
+
+	.container-full-ese{
+		.container-ese{
+			:nth-child(1){
+				h2{	
+					margin-bottom: 28px;
+				}
+			}
+
+			:nth-child(2){ 
+				ul { p{
+					color: $branco;
+					}
+				}
+				}
+		}
+
+
+	}   
+}

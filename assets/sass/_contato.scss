@@ -1,0 +1,102 @@
+/*==================
+
+CONTATO============*/
+
+#contato{
+	@extend %config-base;
+	margin-top: -463px;
+	margin-bottom: 135px;
+
+	.container-ese{
+		background: #fff;
+	    -webkit-box-shadow: 1px 1px 30px -3px rgba(0,0,0,0.4); 
+		box-shadow: 1px 1px 30px -3px rgba(0,0,0,0.4);
+		width: 900px;
+		overflow: hidden;
+		max-width:90%;
+		h2{
+			margin-bottom: 15%;
+		}
+
+		 h3{
+
+			color: $preto;
+
+		}
+		.col{
+			@extend %config-base;
+			width: 50%;
+
+			&:first-child{   
+				@extend %f-flex;
+				@extend %f-columns;
+				width: 50%;
+			    justify-content: center;
+			    align-items: center;
+
+			    p{
+			    	margin:5% 0;
+			    	font-weight: 300; 
+			    	font-size: 14px;
+			    }
+
+			}
+
+			&:last-child p{
+				margin: 0;
+			}
+
+			h2{
+				color: $preto;
+			}
+
+			.cont-conteudo{
+				@extend %config-base;
+				width: 80%;
+				padding: 70px 0;
+			}
+			.form{
+				@extend %config-base;
+				margin-top: 70px;
+
+				input[type=text],
+				input[type=email]{
+					@extend %config-base;
+					@extend %form-contato;	
+							&:focus{
+								@extend %focus;
+								}
+				}
+
+				textarea{
+					@extend %config-base;
+					@extend %form-contato;
+					height: 149px;
+						&:focus{
+								@extend %focus;
+								}
+				}
+
+				input[type=submit]{
+					border:none;
+					margin:42px auto;
+					border-radius: 25px;
+					padding: 0 30px;
+					height: 40px;
+					background: $azul;
+					color: #fff;
+					text-transform: uppercase;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+
+}
+
+.page-template-page-contato{
+	background: #ececec !important;
+}
+
+
+

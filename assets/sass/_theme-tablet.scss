@@ -1,0 +1,114 @@
+/*======================
+900PX
+==========*/
+
+@media(max-width: 900px){
+
+	#header{
+			.container-full-ese{
+				.container-ese{
+					.col-logotipo{
+						width: 25%;
+						a{
+							img{
+								width: 100%;
+								height: auto;
+							}
+						}
+					}
+				}
+			}
+		}
+
+	#carousel-post{ 
+		.owl-carousel-home{
+			.box-carousel-post{
+				width: 226px;
+			} 
+			.owl-nav{
+				display: none !important;
+			}
+		}
+	}
+
+
+
+#a-ese{
+
+}
+
+
+	#competencias-empreendedoras{
+		.title-comp{
+			h2{
+				font-size: 47px;
+			}
+		}
+	}
+	#pesquisas-publicadas{
+		.container-full-ese{
+			.container-ese{
+				.col-pesquisa-right{
+					.img-pesq{
+						width: 470px;
+						margin-right: -124px;
+					}
+				}
+			}
+		}
+	}
+
+
+
+#matriz-curso{
+		.container-ese{
+			.container-matriz{
+				.content-matriz-curricular{
+					div{
+						.box-content-matriz-curricular{
+							font-size: 13px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+#acontece-na-ese{
+	.container-carousel-acontece{
+		max-width: 90%;
+	}
+}
+
+#professores-curso > div > div.container-ese-professores > div {    height: auto;}
+	.box-curriculo-slider > .item > .col-box-curriculo-slider {    width: 100%;    height: auto;}
+.box-curriculo-slider > .item > .col-box-curriculo-slider-right {    width: 100%;}
+.box-conteudo-curriculo .icone{	display: none;}
+.title-carousel-curriculo-slider {    padding-left: 0;    width: 100%;    text-align: center;    padding: 3% 0;}
+.box-conteudo-curriculo{	width: 90%;	margin: 1% 5%;}
+.box-conteudo-curriculo .content-curriculo {    width: 100%;}
+.box-conteudo-curriculo .content-curriculo:last-child {     padding-bottom: 5%;}
+#professores-curso > div > div.container-ese-professores > div > div.owl-nav {	margin-top: 30%;    position: absolute;}
+
+#contato {    
+	margin-top: -259px;
+	.col{
+		.content-conteudo{
+			width: 90%;
+			margin: 4% 5% 0;
+		}
+
+		.form{
+			width: 100%;
+			margin-top: 70px;
+		}
+	}
+}
+#carousel-post > div > div > div.owl-nav {    width: 834px;    margin-left: -34px;}
+
+}
+
+
+
+
+
